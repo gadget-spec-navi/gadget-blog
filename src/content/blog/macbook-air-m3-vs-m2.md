@@ -7,8 +7,6 @@ amazonUrl: 'https://www.amazon.co.jp/s?k=MacBook+Air&tag=your-amazon-id-22'
 rakutenUrl: 'https://a.r10.to/hgX7LK'
 productName: 'MacBook Air M3 と M2'
 emoji: '💻'
-heroImage: '/images/macbook-air-m3-vs-m2-hero.svg'
-heroImageAlt: 'MacBook Air M3とM2を並べたイラスト。外観はほぼ同一で、M3側にのみ外部ディスプレイ2画面出力のアイコンが添えられている。'
 tags: ['MacBook', 'Apple', '比較']
 comparison:
   caption: 'MacBook Air M3 と M2 スペック比較'
@@ -67,10 +65,6 @@ MacBook Airの購入を検討すると、多くの人が最後まで悩むのが
 M2モデル最大の弱点と言われていたのが、外部ディスプレイの接続台数です。M2はクラムシェルモード（本体を閉じて外部ディスプレイのみで使う状態）にしないと、外部ディスプレイを1台しか接続できませんでした。
 
 M3ではこの制限が解消され、**クラムシェルモード時に外部ディスプレイを2台まで同時出力**できます。デュアルモニター環境で作業したい人にとっては、これだけでM3を選ぶ十分な理由になります。
-
-![外部ディスプレイ接続台数の比較イメージ。MacBook Air M2はクラムシェルモード時でも1台まで、M3はクラムシェルモード時に2台まで同時出力できる。](/images/external-display-comparison.svg)
-
-*図: Appleの公表仕様をもとに当サイトで作成した概念図です。*
 
 普段ノートPC単体で完結している人には関係のない差ですが、在宅ワークでデュアルモニターを組んでいる人には、価格差以上に効いてくるポイントです。
 
@@ -177,7 +171,8 @@ M2とM3の**価格差（目安として約1.5万〜2万円）**は、以下の�
 
 また、M3への買い替えを機に今使っているMacを手放すことを考えている方は、買取専門店の査定額を事前にチェックしておくと、新しいMacBook Airの購入費用の一部に充てられます。
 
-<a href="https://px.a8.net/svt/ejp?a8mat=4BA4TB+3MDY9E+2P0S+1BMW42" rel="nofollow">ユーザー満足度98％のMac買取専門店</a>
-<img border="0" width="1" height="1" src="https://www16.a8.net/0.gif?a8mat=4BA4TB+3MDY9E+2P0S+1BMW42" alt="">
+<a href="https://px.a8.net/svt/ejp?a8mat=4BA4TB+3MDY9E+2P0S+1BNYOX" rel="nofollow">
+<img border="0" width="300" height="250" alt="" src="https://www29.a8.net/svt/bgt?aid=260813279219&wid=001&eno=01&mid=s00000012574008006000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www15.a8.net/0.gif?a8mat=4BA4TB+3MDY9E+2P0S+1BNYOX" alt="">
 
 スペックは執筆時点のメーカー公表値です。価格やキャンペーン内容は時期によって変動するため、購入前には必ず各ストアの最新価格をご確認ください。
