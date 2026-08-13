@@ -96,6 +96,8 @@ rakutenUrl: 'https://hb.afl.rakuten.co.jp/...'
 updatedDate: 2026-08-12
 productName: 'SoundPeak Pro 3'   # 記事末尾ボタンの見出し
 emoji: '🎧'                       # カード・記事ヘッダーのアイキャッチ
+heroImage: '/images/foo.svg'      # 記事冒頭のアイキャッチ画像（public/ 起点の絶対パス）
+heroImageAlt: '画像の説明'         # heroImage の代替テキスト
 tags: ['ノイズキャンセリング']
 featured: true                    # トップの「今月のピックアップ」に固定
 draft: true                       # 下書き（ビルド対象から除外）

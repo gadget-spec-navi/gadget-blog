@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 820" role="img"
+     aria-label="重量比較。本体片耳は AirPods Pro 第2世代 5.3g、WF-1000XM5 5.9g。充電ケースは AirPods Pro 第2世代 50.8g、WF-1000XM5 39g。">
+  <title>本体とケースの重量比較</title>
+
+  <style>
+    .f     { font-family: 'Hiragino Sans','Hiragino Kaku Gothic ProN','Helvetica Neue',Arial,sans-serif; }
+    .title { font-size: 38px; font-weight: 600; letter-spacing: -0.015em; fill: #1d1d1f; }
+    .lede  { font-size: 24px; fill: #6e6e73; }
+    .panel { font-size: 24px; font-weight: 600; fill: #1d1d1f; }
+    .name  { font-size: 24px; fill: #6e6e73; }
+    .val   { font-size: 30px; font-weight: 600; fill: #1d1d1f; }
+    .leg   { font-size: 22px; fill: #6e6e73; }
+    .cap   { font-size: 21px; fill: #86868b; }
+  </style>
+
+  <rect width="1600" height="820" fill="#ffffff"/>
+  <rect x="30" y="30" width="1540" height="760" rx="28" fill="#f5f5f7"/>
+
+  <text class="f title" x="90" y="118">本体は互角、差が出るのはケース</text>
+  <text class="f lede"  x="90" y="164">数値が小さいほど軽い（メーカー公表値）</text>
+
+  <!-- 凡例 -->
+  <g transform="translate(1090 100)">
+    <rect x="0" y="-16" width="20" height="20" rx="5" fill="#0071e3"/>
+    <text class="f leg" x="32" y="0">AirPods Pro（第2世代）</text>
+    <rect x="0" y="34" width="20" height="20" rx="5" fill="#b64400"/>
+    <text class="f leg" x="32" y="50">SONY WF-1000XM5</text>
+  </g>
+
+  <line x1="90" y1="230" x2="1510" y2="230" stroke="#d2d2d7" stroke-width="2"/>
+
+  <!-- ============ 本体重量（片耳） ============ -->
+  <g>
+    <text class="f panel" x="90" y="300">本体重量（片耳）</text>
+    <line x1="90" y1="340" x2="90" y2="530" stroke="#d2d2d7" stroke-width="2"/>
+
+    <text class="f name" x="120" y="382">AirPods Pro（第2世代）</text>
+    <rect x="120" y="398" width="318" height="52" rx="8" fill="#0071e3"/>
+    <text class="f val"  x="458" y="437">5.3g</text>
+
+    <text class="f name" x="120" y="500">SONY WF-1000XM5</text>
+    <rect x="120" y="516" width="354" height="52" rx="8" fill="#b64400"/>
+    <text class="f val"  x="494" y="555">5.9g</text>
+  </g>
+
+  <!-- ============ 充電ケース重量 ============ -->
+  <g transform="translate(790 0)">
+    <text class="f panel" x="90" y="300">充電ケース重量</text>
+    <line x1="90" y1="340" x2="90" y2="530" stroke="#d2d2d7" stroke-width="2"/>
+
+    <text class="f name" x="120" y="382">AirPods Pro（第2世代）</text>
+    <rect x="120" y="398" width="508" height="52" rx="8" fill="#0071e3"/>
+    <text class="f val"  x="648" y="437">50.8g</text>
+
+    <text class="f name" x="120" y="500">SONY WF-1000XM5</text>
+    <rect x="120" y="516" width="390" height="52" rx="8" fill="#b64400"/>
+    <text class="f val"  x="530" y="555">39g</text>
+  </g>
+
+  <text class="f cap" x="90" y="700">
+    ※ 左右の図は目盛りが異なります（本体は最大8g、ケースは最大60gで作図）。ケース重量にイヤホン本体は含みません。
+  </text>
+  <text class="f cap" x="90" y="736">
+    ※ 出典: Apple / ソニー 各製品仕様ページの公表値
+  </text>
+</svg>

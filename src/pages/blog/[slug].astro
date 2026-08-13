@@ -30,6 +30,8 @@ const {
   emoji,
   tags,
   comparison,
+  heroImage,
+  heroImageAlt,
 } = post.data;
 
 // 同じカテゴリーの関連記事
@@ -72,6 +74,18 @@ const related = (await getCollection('blog', ({ data }) => !data.draft))
           {description}
         </p>
 
+        {
+          heroImage && (
+            <img
+              src={heroImage}
+              alt={heroImageAlt ?? ''}
+              class="mt-10 w-full rounded-tile"
+              loading="eager"
+              decoding="async"
+            />
+          )
+        }
+
         <div
           class="mt-7 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-[12px] text-ink-3"
         >
@@ -101,7 +115,7 @@ const related = (await getCollection('blog', ({ data }) => !data.draft))
 
       <!-- 記事本文: Apple の本文組み（17px / 1.47 / -0.01em） -->
       <div
-        class="prose mx-auto max-w-[692px] prose-headings:font-semibold prose-headings:tracking-[-0.015em] prose-headings:text-ink prose-h2:mt-14 prose-h2:mb-4 prose-h2:text-[28px] prose-h2:leading-[1.14] sm:prose-h2:text-[32px] prose-h3:mt-10 prose-h3:text-[21px] prose-p:text-[17px] prose-p:leading-[1.47] prose-p:tracking-[-0.01em] prose-p:text-ink prose-a:text-link prose-a:no-underline hover:prose-a:underline prose-strong:font-semibold prose-strong:text-ink prose-li:text-[17px] prose-li:leading-[1.47] prose-li:text-ink prose-table:text-[14px] prose-th:text-ink prose-td:text-ink-2 prose-hr:border-hairline"
+        class="prose mx-auto max-w-[692px] prose-headings:font-semibold prose-headings:tracking-[-0.015em] prose-headings:text-ink prose-h2:mt-14 prose-h2:mb-4 prose-h2:text-[28px] prose-h2:leading-[1.14] sm:prose-h2:text-[32px] prose-h3:mt-10 prose-h3:text-[21px] prose-p:text-[17px] prose-p:leading-[1.47] prose-p:tracking-[-0.01em] prose-p:text-ink prose-a:text-link prose-a:no-underline hover:prose-a:underline prose-strong:font-semibold prose-strong:text-ink prose-li:text-[17px] prose-li:leading-[1.47] prose-li:text-ink prose-table:text-[14px] prose-th:text-ink prose-td:text-ink-2 prose-hr:border-hairline prose-img:w-full prose-img:rounded-tile prose-figcaption:text-[12px] prose-figcaption:text-ink-3"
       >
         <Content />
       </div>

@@ -18,6 +18,10 @@ const blog = defineCollection({
     emoji: z.string().default('📦'),
     /** 記事内で紹介する主要製品名（アフィリエイトボタンの見出しに使用） */
     productName: z.string().optional(),
+    /** 記事冒頭のアイキャッチ画像（public/ を起点とした絶対パス） */
+    heroImage: z.string().optional(),
+    /** アイキャッチ画像の代替テキスト */
+    heroImageAlt: z.string().optional(),
     tags: z.array(z.string()).default([]),
     featured: z.boolean().default(false),
     draft: z.boolean().default(false),

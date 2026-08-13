@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 820" role="img"
+     aria-label="ノイズキャンセリングの効き方のイメージ図。低音域は両機種とも強く効き、人の声を含む中音域は WF-1000XM5 が明確に上、高音域はどちらも効きにくい。">
+  <title>周波数帯ごとのノイズキャンセリングの効き方（イメージ）</title>
+
+  <style>
+    .f     { font-family: 'Hiragino Sans','Hiragino Kaku Gothic ProN','Helvetica Neue',Arial,sans-serif; }
+    .title { font-size: 38px; font-weight: 600; letter-spacing: -0.015em; fill: #1d1d1f; }
+    .lede  { font-size: 24px; fill: #6e6e73; }
+    .band  { font-size: 26px; font-weight: 600; fill: #1d1d1f; }
+    .egs   { font-size: 22px; fill: #86868b; }
+    .tick  { font-size: 22px; fill: #86868b; }
+    .leg   { font-size: 22px; fill: #6e6e73; }
+    .cap   { font-size: 21px; fill: #86868b; }
+  </style>
+
+  <rect width="1600" height="820" fill="#ffffff"/>
+  <rect x="30" y="30" width="1540" height="760" rx="28" fill="#f5f5f7"/>
+
+  <text class="f title" x="90" y="118">消せる音と、消しにくい音</text>
+  <text class="f lede"  x="90" y="164">ノイズキャンセリングの効き方（周波数帯別のイメージ）</text>
+
+  <!-- 凡例 -->
+  <g transform="translate(1090 100)">
+    <rect x="0" y="-16" width="20" height="20" rx="5" fill="#0071e3"/>
+    <text class="f leg" x="32" y="0">AirPods Pro（第2世代）</text>
+    <rect x="0" y="34" width="20" height="20" rx="5" fill="#b64400"/>
+    <text class="f leg" x="32" y="50">SONY WF-1000XM5</text>
+  </g>
+
+  <!-- 目盛り（定性スケール） -->
+  <line x1="260" y1="320" x2="1420" y2="320" stroke="#d2d2d7" stroke-width="2"/>
+  <line x1="260" y1="470" x2="1420" y2="470" stroke="#d2d2d7" stroke-width="2"/>
+  <line x1="260" y1="620" x2="1420" y2="620" stroke="#86868b" stroke-width="2"/>
+  <text class="f tick" x="236" y="328" text-anchor="end">強</text>
+  <text class="f tick" x="236" y="478" text-anchor="end">中</text>
+  <text class="f tick" x="236" y="628" text-anchor="end">弱</text>
+  <text class="f tick" x="90"  y="270">遮音の効きやすさ</text>
+
+  <!-- 低音域 -->
+  <path d="M372 620 L372 360 Q372 350 382 350 L462 350 Q472 350 472 360 L472 620 Z" fill="#0071e3"/>
+  <path d="M488 620 L488 330 Q488 320 498 320 L578 320 Q588 320 588 330 L588 620 Z" fill="#b64400"/>
+  <text class="f band" x="480" y="672" text-anchor="middle">低音域</text>
+  <text class="f egs"  x="480" y="708" text-anchor="middle">電車の走行音・空調</text>
+
+  <!-- 中音域 -->
+  <path d="M732 620 L732 450 Q732 440 742 440 L822 440 Q832 440 832 450 L832 620 Z" fill="#0071e3"/>
+  <path d="M848 620 L848 360 Q848 350 858 350 L938 350 Q948 350 948 360 L948 620 Z" fill="#b64400"/>
+  <text class="f band" x="840" y="672" text-anchor="middle">中音域</text>
+  <text class="f egs"  x="840" y="708" text-anchor="middle">人の声・車内アナウンス</text>
+
+  <!-- 高音域 -->
+  <path d="M1092 620 L1092 540 Q1092 530 1102 530 L1182 530 Q1192 530 1192 540 L1192 620 Z" fill="#0071e3"/>
+  <path d="M1208 620 L1208 510 Q1208 500 1218 500 L1298 500 Q1308 500 1308 510 L1308 620 Z" fill="#b64400"/>
+  <text class="f band" x="1200" y="672" text-anchor="middle">高音域</text>
+  <text class="f egs"  x="1200" y="708" text-anchor="middle">キーボード・食器の音</text>
+
+  <text class="f cap" x="90" y="760">
+    ※ 実測値ではなく、本記事での評価をもとにした概念図です。効き方は装着状態やイヤーピースの密閉度でも変わります。
+  </text>
+</svg>
