@@ -1,0 +1,38 @@
+---
+import { SITE_TITLE, FOOTER_LINKS } from '../consts';
+
+const year = new Date().getFullYear();
+---
+
+<!-- Apple のフッター準拠: 背景 #f5f5f7 / 12px・#6e6e73 / 上部に 1px 罫線 -->
+<footer class="mt-0 bg-surface">
+  <div class="mx-auto max-w-[980px] px-4 py-5">
+    <p class="border-b border-hairline pb-4 text-[12px] leading-[1.33] text-ink-2">
+      当サイトはアフィリエイトプログラムに参加しています。記事内のリンクを経由して商品をご購入いただくと、売上の一部が運営者に還元されることがあります。掲載している価格・スペックは執筆時点の情報です。最新の情報は各販売サイトにてご確認ください。
+    </p>
+
+    <nav aria-label="フッターナビゲーション" class="pt-4">
+      <ul class="flex flex-wrap items-center gap-x-5 gap-y-2">
+        {
+          FOOTER_LINKS.map((link) => (
+            <li>
+              <a
+                href={link.href}
+                class="text-[12px] leading-[1.33] text-ink-2 transition-colors hover:text-ink hover:underline"
+              >
+                {link.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+
+    <div
+      class="mt-4 flex flex-col gap-2 border-t border-hairline pt-4 sm:flex-row sm:items-center sm:justify-between"
+    >
+      <p class="text-[12px] text-ink-2">Copyright © {year} {SITE_TITLE}. All rights reserved.</p>
+      <p class="text-[12px] font-semibold text-ink">{SITE_TITLE}</p>
+    </div>
+  </div>
+</footer>

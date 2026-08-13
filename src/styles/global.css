@@ -1,0 +1,56 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+/*
+ * Apple 公式サイト（apple.com）のデザイントークンを参照。
+ * 値は ac-globalnav.built.css および apple.com のマーケティングページ準拠。
+ */
+@theme {
+  --font-sans:
+    'SF Pro Text', 'SF Pro JP', 'SF Pro Icons', 'Hiragino Kaku Gothic ProN', 'Hiragino Sans',
+    'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  /* テキスト */
+  --color-ink: #1d1d1f; /* 本文・見出し */
+  --color-ink-2: #6e6e73; /* 補足テキスト */
+  --color-ink-3: #86868b; /* 注釈・キャプション */
+
+  /* 面・罫線 */
+  --color-surface: #f5f5f7; /* セクション背景・タイル */
+  --color-hairline: #d2d2d7; /* 1px 罫線 */
+  --color-nav: rgb(0 0 0 / 0.92); /* グローバルナビ */
+
+  /* アクセント */
+  --color-blue: #0071e3; /* 主ボタン */
+  --color-blue-hover: #0077ed;
+  --color-link: #0066cc; /* テキストリンク */
+
+  /* ストアのブランドカラー（アフィリエイトボタン用） */
+  --color-amazon: #ff9900; /* Amazon オレンジ。文字は濃色（--color-ink）で載せる */
+  --color-amazon-hover: #f08804;
+  --color-rakuten: #bf0000; /* 楽天レッド。文字は白 */
+  --color-rakuten-hover: #a30000;
+
+  /* 角丸 */
+  --radius-tile: 18px; /* カード・タイル */
+  --radius-panel: 12px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-ink antialiased;
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Apple のテキストリンク（末尾に › を付ける） */
+.a-link {
+  @apply text-link hover:underline;
+}
+
+.a-link::after {
+  content: ' \203A';
+}

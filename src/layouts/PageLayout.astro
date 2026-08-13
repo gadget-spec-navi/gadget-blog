@@ -1,0 +1,43 @@
+---
+/**
+ * プライバシーポリシー・お問い合わせなどの固定ページ用レイアウト。
+ * 記事ページと同じ組み（中央揃えのヘッダー + 780px の本文カラム）に揃える。
+ */
+import BaseLayout from './BaseLayout.astro';
+import { SITE_TITLE } from '../consts';
+
+interface Props {
+  title: string;
+  description: string;
+  /** ヘッダー下に出す補足（最終更新日など） */
+  meta?: string;
+}
+
+const { title, description, meta } = Astro.props;
+---
+
+<BaseLayout title={`${title} | ${SITE_TITLE}`} description={description}>
+  <header class="bg-white">
+    <div class="mx-auto max-w-[780px] px-4 py-14 text-center sm:py-20">
+      <h1
+        class="text-[28px] leading-[1.1] font-semibold tracking-[-0.015em] text-balance text-ink sm:text-[40px]"
+      >
+        {title}
+      </h1>
+      <p
+        class="mx-auto mt-5 max-w-[600px] text-[17px] leading-[1.47] tracking-[-0.01em] text-ink-2 sm:text-[19px]"
+      >
+        {description}
+      </p>
+      {meta && <p class="mt-6 text-[12px] text-ink-3">{meta}</p>}
+    </div>
+  </header>
+
+  <div class="mx-auto max-w-[780px] px-4 pb-16">
+    <slot />
+
+    <p class="mt-14 text-center">
+      <a href="/" class="a-link text-[17px] tracking-[-0.01em]">ホームに戻る</a>
+    </p>
+  </div>
+</BaseLayout>

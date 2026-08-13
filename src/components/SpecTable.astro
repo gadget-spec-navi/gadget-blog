@@ -1,0 +1,125 @@
+---
+import AffiliateButtons from './AffiliateButtons.astro';
+
+interface Product {
+  name: string;
+  badge?: string;
+  amazonUrl?: string;
+  rakutenUrl?: string;
+}
+
+interface Spec {
+  label: string;
+  values: string[];
+  /** 最も優れている列のインデックス（0始まり） */
+  best?: number;
+}
+
+interface Props {
+  products: Product[];
+  specs: Spec[];
+  caption?: string;
+}
+
+const { products, specs, caption } = Astro.props;
+
+// 1行でも購入リンクを持つ製品があれば、購入ボタン行を出す
+const hasBuyRow = products.some((p) => p.amazonUrl || p.rakutenUrl);
+---
+
+<!-- Apple の「モデルを比較する」表に準拠: 白地・水平ヘアラインのみ・中央揃え -->
+<figure class="not-prose my-12">
+  {
+    caption && (
+      <figcaption class="mb-6 text-center text-[24px] leading-[1.16] font-semibold tracking-[-0.015em] text-ink sm:text-[32px]">
+        {caption}
+      </figcaption>
+    )
+  }
+
+  <div class="overflow-x-auto rounded-tile bg-surface px-2 py-2 sm:px-6 sm:py-4">
+    <table class="w-full min-w-[600px] border-collapse text-left">
+      <thead>
+        <tr>
+          <th scope="col" class="sticky left-0 z-10 bg-surface px-3 py-5 align-top">
+            <span class="text-[12px] font-normal text-ink-3">項目</span>
+          </th>
+          {
+            products.map((product) => (
+              <th scope="col" class="px-3 py-5 text-center align-top">
+                {/* バッジ無しの列も行を確保して、製品名の開始位置を揃える */}
+                <span class="mb-1 block text-[12px] font-semibold tracking-[-0.01em] text-blue">
+                  {product.badge ?? ' '}
+                </span>
+                <span class="block text-[17px] leading-[1.2] font-semibold tracking-[-0.015em] text-balance text-ink sm:text-[19px]">
+                  {product.name}
+                </span>
+              </th>
+            ))
+          }
+        </tr>
+      </thead>
+
+      <tbody>
+        {
+          specs.map((spec) => (
+            <tr class="border-t border-hairline">
+              <th
+                scope="row"
+                class="sticky left-0 z-10 bg-surface px-3 py-4 text-[12px] font-normal whitespace-nowrap text-ink-2"
+              >
+                {spec.label}
+              </th>
+              {products.map((_product, colIndex) => {
+                const isBest = spec.best === colIndex;
+                return (
+                  <td
+                    class={`px-3 py-4 text-center text-[14px] leading-[1.4] tracking-[-0.01em] ${
+                      isBest ? 'font-semibold text-ink' : 'text-ink-2'
+                    }`}
+                  >
+                    {isBest && (
+                      <span class="mr-1 text-blue" aria-label="この項目で最優秀">
+                        ★
+                      </span>
+                    )}
+                    {spec.values[colIndex] ?? '—'}
+                  </td>
+                );
+              })}
+            </tr>
+          ))
+        }
+
+        {
+          hasBuyRow && (
+            <tr class="border-t border-hairline">
+              <th
+                scope="row"
+                class="sticky left-0 z-10 bg-surface px-3 py-5 text-[12px] font-normal whitespace-nowrap text-ink-2"
+              >
+                購入
+              </th>
+              {products.map((product) => (
+                <td class="px-3 py-5 text-center align-top">
+                  <div class="flex flex-col items-center gap-2">
+                    <AffiliateButtons
+                      amazonUrl={product.amazonUrl}
+                      rakutenUrl={product.rakutenUrl}
+                      card={false}
+                      compact
+                    />
+                  </div>
+                </td>
+              ))}
+            </tr>
+          )
+        }
+      </tbody>
+    </table>
+  </div>
+
+  <p class="mt-3 text-center text-[12px] leading-[1.33] text-ink-3">
+    ★ 各項目で最も優れているモデル。表は横にスクロールできます。
+  </p>
+</figure>

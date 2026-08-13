@@ -1,0 +1,36 @@
+---
+import { SITE_TITLE, NAV_LINKS } from '../consts';
+---
+
+<!--
+  Apple のグローバルナビ準拠:
+  高さ 44px / 背景 rgba(0,0,0,.92) + backdrop-filter / リンク 12px・#f5f5f7・opacity .8
+-->
+<header class="sticky top-0 z-50 h-11 bg-nav backdrop-blur-[20px] backdrop-saturate-[180%]">
+  <div class="mx-auto flex h-11 max-w-[980px] items-center justify-between px-4">
+    <a
+      href="/"
+      class="flex items-center gap-1.5 text-[12px] font-semibold tracking-[-0.01em] whitespace-nowrap text-[#f5f5f7] opacity-90 transition-opacity hover:opacity-100 sm:text-[14px]"
+    >
+      <span aria-hidden="true">⚡</span>
+      <span>{SITE_TITLE}</span>
+    </a>
+
+    <nav aria-label="メインナビゲーション">
+      <ul class="flex items-center">
+        {
+          NAV_LINKS.map((link) => (
+            <li class={link.hideOnMobile ? 'hidden sm:block' : ''}>
+              <a
+                href={link.href}
+                class="block px-2 py-2 text-[12px] tracking-[-0.01em] whitespace-nowrap text-[#f5f5f7] opacity-80 transition-opacity hover:opacity-100"
+              >
+                {link.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </div>
+</header>

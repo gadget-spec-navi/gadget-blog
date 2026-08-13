@@ -1,0 +1,139 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AffiliateButtons from '../../components/AffiliateButtons.astro';
+import SpecTable from '../../components/SpecTable.astro';
+import CategoryBadge from '../../components/CategoryBadge.astro';
+import FormattedDate from '../../components/FormattedDate.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+};
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const {
+  title,
+  description,
+  pubDate,
+  updatedDate,
+  category,
+  amazonUrl,
+  rakutenUrl,
+  productName,
+  emoji,
+  tags,
+  comparison,
+} = post.data;
+
+// 同じカテゴリーの関連記事
+const related = (await getCollection('blog', ({ data }) => !data.draft))
+  .filter((entry) => entry.id !== post.id && entry.data.category === category)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
+---
+
+<BaseLayout title={`${title} | ガジェットスペック比較ナビ`} description={description}>
+  <article>
+    <!-- ローカルナビ（Apple のプロダクトサブナビ準拠: 白背景・高さ 48px・1px 罫線） -->
+    <nav
+      aria-label="パンくずリスト"
+      class="sticky top-11 z-40 border-b border-hairline bg-white/72 backdrop-blur-[20px] backdrop-saturate-[180%]"
+    >
+      <div
+        class="mx-auto flex h-12 max-w-[980px] items-center gap-2 px-4 text-[12px] tracking-[-0.01em]"
+      >
+        <a href="/" class="text-ink-2 transition-colors hover:text-ink">ホーム</a>
+        <span class="text-ink-3" aria-hidden="true">/</span>
+        <CategoryBadge category={category} />
+      </div>
+    </nav>
+
+    <!-- 記事ヘッダー -->
+    <header class="bg-white">
+      <div class="mx-auto max-w-[780px] px-4 py-14 text-center sm:py-20">
+        <p class="text-[72px] leading-none" aria-hidden="true">{emoji}</p>
+
+        <h1
+          class="mt-6 text-[28px] leading-[1.1] font-semibold tracking-[-0.015em] text-balance text-ink sm:text-[40px]"
+        >
+          {title}
+        </h1>
+
+        <p
+          class="mx-auto mt-5 max-w-[600px] text-[17px] leading-[1.47] tracking-[-0.01em] text-ink-2 sm:text-[19px]"
+        >
+          {description}
+        </p>
+
+        <div
+          class="mt-7 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-[12px] text-ink-3"
+        >
+          <span>公開 <FormattedDate date={pubDate} /></span>
+          {updatedDate && <span>更新 <FormattedDate date={updatedDate} /></span>}
+          {
+            tags.length > 0 &&
+              tags.map((tag) => (
+                <span class="rounded-full bg-surface px-2.5 py-1 text-ink-2">{tag}</span>
+              ))
+          }
+        </div>
+      </div>
+    </header>
+
+    <div class="mx-auto max-w-[780px] px-4 pb-16">
+      <!-- スペック比較表（frontmatter の comparison から生成） -->
+      {
+        comparison && (
+          <SpecTable
+            products={comparison.products}
+            specs={comparison.specs}
+            caption={comparison.caption ?? 'スペック比較'}
+          />
+        )
+      }
+
+      <!-- 記事本文: Apple の本文組み（17px / 1.47 / -0.01em） -->
+      <div
+        class="prose mx-auto max-w-[692px] prose-headings:font-semibold prose-headings:tracking-[-0.015em] prose-headings:text-ink prose-h2:mt-14 prose-h2:mb-4 prose-h2:text-[28px] prose-h2:leading-[1.14] sm:prose-h2:text-[32px] prose-h3:mt-10 prose-h3:text-[21px] prose-p:text-[17px] prose-p:leading-[1.47] prose-p:tracking-[-0.01em] prose-p:text-ink prose-a:text-link prose-a:no-underline hover:prose-a:underline prose-strong:font-semibold prose-strong:text-ink prose-li:text-[17px] prose-li:leading-[1.47] prose-li:text-ink prose-table:text-[14px] prose-th:text-ink prose-td:text-ink-2 prose-hr:border-hairline"
+      >
+        <Content />
+      </div>
+
+      <!-- 記事末尾の購入ボタン -->
+      <AffiliateButtons
+        amazonUrl={amazonUrl}
+        rakutenUrl={rakutenUrl}
+        productName={productName ?? title}
+      />
+
+      <p class="text-center">
+        <a href="/" class="a-link text-[17px] tracking-[-0.01em]">すべての比較記事を見る</a>
+      </p>
+    </div>
+
+    <!-- 関連記事 -->
+    {
+      related.length > 0 && (
+        <section class="border-t border-hairline bg-white py-16 sm:py-20">
+          <div class="mx-auto max-w-[980px] px-4">
+            <h2 class="text-center text-[32px] leading-[1.09] font-semibold tracking-[-0.015em] text-ink sm:text-[40px]">
+              {category}の比較記事
+            </h2>
+            <div class="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              {related.map((entry) => (
+                <ArticleCard post={entry} />
+              ))}
+            </div>
+          </div>
+        </section>
+      )
+    }
+  </article>
+</BaseLayout>

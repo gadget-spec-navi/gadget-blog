@@ -1,0 +1,42 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import CategoryBadge from './CategoryBadge.astro';
+import FormattedDate from './FormattedDate.astro';
+
+interface Props {
+  post: CollectionEntry<'blog'>;
+}
+
+const { post } = Astro.props;
+const { title, description, pubDate, category, emoji } = post.data;
+---
+
+<!-- Apple のプロダクトタイル準拠: #f5f5f7 の面・角丸 18px・中央揃え・罫線なし -->
+<article
+  class="group h-full overflow-hidden rounded-tile bg-surface transition-transform duration-300 hover:-translate-y-1"
+>
+  <a href={`/blog/${post.id}/`} class="flex h-full flex-col px-6 pt-10 pb-8 text-center">
+    <p class="text-[56px] leading-none transition-transform duration-300 group-hover:scale-110">
+      <span aria-hidden="true">{emoji}</span>
+    </p>
+
+    <div class="mt-6">
+      <CategoryBadge category={category} />
+    </div>
+
+    <h3
+      class="mt-2 text-[21px] leading-[1.19] font-semibold tracking-[-0.015em] text-balance text-ink"
+    >
+      {title}
+    </h3>
+
+    <p class="mt-3 line-clamp-3 flex-1 text-[14px] leading-[1.42] tracking-[-0.01em] text-ink-2">
+      {description}
+    </p>
+
+    <p class="mt-5 flex items-center justify-center gap-3 text-[14px]">
+      <span class="text-link group-hover:underline">比較を見る &rsaquo;</span>
+      <FormattedDate date={pubDate} class="text-ink-3" />
+    </p>
+  </a>
+</article>

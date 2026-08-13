@@ -1,0 +1,84 @@
+---
+/**
+ * Amazon / 楽天へのアフィリエイトボタン。
+ * 形は Apple のボタン仕様（pill: border-radius 980px / 17px）、色は各ストアのブランドカラー。
+ * Amazon はオレンジ地に濃色文字、楽天は赤地に白文字（いずれもコントラスト比 4.5:1 以上）。
+ * URL が未設定のストアはボタン自体を描画しない。
+ */
+interface Props {
+  amazonUrl?: string;
+  rakutenUrl?: string;
+  /** 見出しに表示する製品名 */
+  productName?: string;
+  /** false にすると枠なしのボタン列だけを描画する（表内などで使用） */
+  card?: boolean;
+  /** 表内で使う小さいサイズ */
+  compact?: boolean;
+}
+
+const { amazonUrl, rakutenUrl, productName, card = true, compact = false } = Astro.props;
+
+const hasLink = Boolean(amazonUrl || rakutenUrl);
+
+const base =
+  'inline-flex items-center justify-center rounded-full text-center font-semibold leading-[1.17648] transition-colors focus-visible:outline-2 focus-visible:outline-offset-4';
+const size = compact ? 'px-[11px] py-[4px] text-[12px]' : 'px-[22px] py-[12px] text-[17px]';
+
+const amazon = `${base} ${size} bg-amazon text-ink hover:bg-amazon-hover focus-visible:outline-amazon`;
+const rakuten = `${base} ${size} bg-rakuten text-white hover:bg-rakuten-hover focus-visible:outline-rakuten`;
+---
+
+{
+  hasLink && (
+    <div
+      class={
+        card ? 'not-prose my-12 rounded-tile bg-surface px-6 py-8 text-center sm:px-10' : 'not-prose'
+      }
+    >
+      {card && (
+        <p class="text-[12px] font-semibold tracking-[-0.01em] text-ink-2">最新価格をチェック</p>
+      )}
+      {card && productName && (
+        <p class="mt-2 text-[24px] leading-[1.16] font-semibold tracking-[-0.015em] text-ink sm:text-[28px]">
+          {productName}
+        </p>
+      )}
+
+      <div
+        class={
+          card
+            ? 'mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row'
+            : 'flex flex-wrap gap-2'
+        }
+      >
+        {amazonUrl && (
+          <a
+            href={amazonUrl}
+            target="_blank"
+            rel="sponsored nofollow noopener"
+            class={`${amazon} ${card ? 'w-full sm:w-auto' : ''}`}
+          >
+            Amazonで見る
+          </a>
+        )}
+
+        {rakutenUrl && (
+          <a
+            href={rakutenUrl}
+            target="_blank"
+            rel="sponsored nofollow noopener"
+            class={`${rakuten} ${card ? 'w-full sm:w-auto' : ''}`}
+          >
+            楽天で見る
+          </a>
+        )}
+      </div>
+
+      {card && (
+        <p class="mt-5 text-[12px] leading-[1.33] text-ink-3">
+          価格は変動します。最新価格は各サイトでご確認ください（PR・アフィリエイトリンクを含みます）
+        </p>
+      )}
+    </div>
+  )
+}
