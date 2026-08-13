@@ -4,7 +4,7 @@ description: '1万円以下でハイレゾ相当の音質とノイズキャン�
 pubDate: 2026-08-13
 category: 'イヤホン'
 amazonUrl: 'https://www.amazon.co.jp/s?k=EarFun+Air+Pro+4&tag=your-amazon-id-22'
-rakutenUrl: 'https://search.rakuten.co.jp/search/mall/EarFun%20Air%20Pro%204/'
+rakutenUrl: 'https://a.r10.to/hYiSwq'
 productName: 'EarFun Air Pro 4'
 emoji: '🎧'
 tags: ['EarFun', 'コスパ', 'ハイレゾ', 'ノイズキャンセリング']
