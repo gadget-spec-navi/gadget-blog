@@ -1,5 +1,6 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
+import { CATEGORY_LABELS } from './consts';
 
 const blog = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/blog' }),
@@ -8,7 +9,12 @@ const blog = defineCollection({
     title: z.string(),
     description: z.string(),
     pubDate: z.coerce.date(),
-    category: z.string(),
+    /**
+     * src/consts.ts の CATEGORIES に登録済みの表示名のみ許可する。
+     * 表記ゆれ（例: 'ノートパソコン'）はカテゴリーページが作られない記事を生むため、
+     * ビルド時に落として気づけるようにしている。
+     */
+    category: z.enum(CATEGORY_LABELS),
     amazonUrl: z.string().url().optional(),
     rakutenUrl: z.string().url().optional(),
 

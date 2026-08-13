@@ -7,6 +7,7 @@ import SpecTable from '../../components/SpecTable.astro';
 import CategoryBadge from '../../components/CategoryBadge.astro';
 import FormattedDate from '../../components/FormattedDate.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
+import { categoryPath } from '../../consts';
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const posts = await getCollection('blog', ({ data }) => !data.draft);
@@ -53,7 +54,7 @@ const related = (await getCollection('blog', ({ data }) => !data.draft))
       >
         <a href="/" class="text-ink-2 transition-colors hover:text-ink">ホーム</a>
         <span class="text-ink-3" aria-hidden="true">/</span>
-        <CategoryBadge category={category} />
+        <CategoryBadge category={category} link />
       </div>
     </nav>
 
@@ -145,6 +146,11 @@ const related = (await getCollection('blog', ({ data }) => !data.draft))
                 <ArticleCard post={entry} />
               ))}
             </div>
+            <p class="mt-10 text-center">
+              <a href={categoryPath(category)} class="a-link text-[17px] tracking-[-0.01em]">
+                {category}の記事をすべて見る
+              </a>
+            </p>
           </div>
         </section>
       )

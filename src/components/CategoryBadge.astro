@@ -1,35 +1,39 @@
 ---
-import { CATEGORY_COLORS, DEFAULT_CATEGORY_COLOR } from '../consts';
+import { CATEGORY_COLORS, DEFAULT_CATEGORY_COLOR, categoryPath } from '../consts';
 
 interface Props {
   category: string;
   /** 'eyebrow' = Apple のマーケティングページ風の色文字 / 'chip' = 枠線付きチップ */
   variant?: 'eyebrow' | 'chip';
+  /** カテゴリーページ（/category/{slug}/）へのリンクにする。<a> の内側では使えない */
+  link?: boolean;
   class?: string;
 }
 
-const { category, variant = 'eyebrow', class: className = '' } = Astro.props;
+const { category, variant = 'eyebrow', link = false, class: className = '' } = Astro.props;
 const color = CATEGORY_COLORS[category] ?? DEFAULT_CATEGORY_COLOR;
+
+// リンクにするときだけ <a>、それ以外は <span>（記事カードのように親が <a> の場合）
+const Tag = link ? 'a' : 'span';
+const href = link ? categoryPath(category) : undefined;
 ---
 
 {
   variant === 'eyebrow' ? (
-    <span
-      class={`text-[12px] font-semibold tracking-[-0.01em] ${className}`}
+    <Tag
+      href={href}
+      class={`text-[12px] font-semibold tracking-[-0.01em] ${link ? 'hover:underline' : ''} ${className}`}
       style={`color:${color}`}
     >
       {category}
-    </span>
+    </Tag>
   ) : (
-    <span
+    <Tag
+      href={href}
       class={`inline-flex items-center gap-1.5 rounded-full border border-hairline px-3 py-1.5 text-[14px] text-ink transition-colors hover:bg-surface ${className}`}
     >
-      <span
-        class="h-1.5 w-1.5 rounded-full"
-        style={`background-color:${color}`}
-        aria-hidden="true"
-      />
+      <span class="h-1.5 w-1.5 rounded-full" style={`background-color:${color}`} aria-hidden="true" />
       {category}
-    </span>
+    </Tag>
   )
 }

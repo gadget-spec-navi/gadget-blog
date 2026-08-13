@@ -1,0 +1,74 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { SITE_TITLE } from '../../consts';
+import { getCategorySummaries } from '../../utils/posts';
+
+/** カテゴリーの一覧（/category/）。ヘッダーの「カテゴリー」から遷移する入口 */
+const categories = await getCategorySummaries();
+const total = categories.reduce((sum, category) => sum + category.count, 0);
+---
+
+<BaseLayout
+  title={`カテゴリーから探す | ${SITE_TITLE}`}
+  description="イヤホン、スマートフォン、ノートPC、スマートウォッチ、生活家電。ジャンル別に比較記事を探せます。"
+>
+  <header class="bg-white">
+    <div class="mx-auto max-w-[780px] px-4 py-14 text-center sm:py-20">
+      <h1
+        class="text-[40px] leading-[1.05] font-semibold tracking-[-0.015em] text-balance text-ink sm:text-[56px]"
+      >
+        カテゴリーから探す
+      </h1>
+      <p
+        class="mx-auto mt-5 max-w-[600px] text-[17px] leading-[1.47] tracking-[-0.01em] text-ink-2 sm:text-[19px]"
+      >
+        ジャンルごとに、スペック比較記事をまとめています。
+      </p>
+      <p class="mt-6 text-[12px] text-ink-3">全 {categories.length} カテゴリー / {total} 記事</p>
+    </div>
+  </header>
+
+  <section class="bg-white pb-16 sm:pb-20">
+    <div class="mx-auto max-w-[980px] px-4">
+      {
+        categories.length > 0 ? (
+          <ul class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {categories.map((category) => (
+              <li class="h-full">
+                <a
+                  href={category.href}
+                  class="group flex h-full flex-col overflow-hidden rounded-tile bg-surface px-6 pt-10 pb-8 text-center transition-transform duration-300 hover:-translate-y-1"
+                >
+                  <p class="text-[56px] leading-none transition-transform duration-300 group-hover:scale-110">
+                    <span aria-hidden="true">{category.emoji}</span>
+                  </p>
+                  <h2
+                    class="mt-6 text-[21px] leading-[1.19] font-semibold tracking-[-0.015em] text-balance"
+                    style={`color:${category.color}`}
+                  >
+                    {category.label}
+                  </h2>
+                  <p class="mt-3 flex-1 text-[14px] leading-[1.42] tracking-[-0.01em] text-ink-2">
+                    {category.description}
+                  </p>
+                  <p class="mt-5 flex items-center justify-center gap-3 text-[14px]">
+                    <span class="text-link group-hover:underline">記事を見る &rsaquo;</span>
+                    <span class="text-ink-3">{category.count} 記事</span>
+                  </p>
+                </a>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p class="text-center text-[17px] text-ink-2">カテゴリーはまだありません。</p>
+        )
+      }
+
+      <p class="mt-14 text-center">
+        <a href="/#articles" class="a-link text-[17px] tracking-[-0.01em]">
+          すべての比較記事を見る
+        </a>
+      </p>
+    </div>
+  </section>
+</BaseLayout>

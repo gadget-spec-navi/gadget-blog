@@ -2,7 +2,7 @@
 title: '【実測比較】MacBook Air M3 vs M2！価格差以上のスペック差はある？おすすめはどっち？'
 description: 'MacBook Airの二大定番を、スペック・GPU性能・通信規格・価格差まで横並びで比較。差額を払ってM3を選ぶべきか、使い方から逆算して整理しました。'
 pubDate: 2026-08-13
-category: 'ノートパソコン'
+category: 'ノートPC'
 amazonUrl: 'https://www.amazon.co.jp/s?k=MacBook+Air&tag=your-amazon-id-22'
 rakutenUrl: 'https://a.r10.to/hgX7LK'
 productName: 'MacBook Air M3 と M2'

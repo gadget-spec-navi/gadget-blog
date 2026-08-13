@@ -1,0 +1,110 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { SITE_TITLE } from '../../consts';
+import { getCategorySummaries, type CategorySummary } from '../../utils/posts';
+
+/**
+ * カテゴリーごとの記事一覧（/category/{slug}/）。
+ * src/consts.ts の CATEGORIES と記事の frontmatter から静的生成する。
+ */
+export const getStaticPaths: GetStaticPaths = async () => {
+  const categories = await getCategorySummaries();
+
+  return categories.map((category) => ({
+    params: { category: category.slug },
+    props: {
+      category,
+      others: categories.filter((other) => other.slug !== category.slug),
+    },
+  }));
+};
+
+interface Props {
+  category: CategorySummary;
+  others: CategorySummary[];
+}
+
+const { category, others } = Astro.props as Props;
+---
+
+<BaseLayout
+  title={`${category.label}の比較記事 | ${SITE_TITLE}`}
+  description={category.description}
+>
+  <!-- ローカルナビ（記事ページと同じ組み） -->
+  <nav
+    aria-label="パンくずリスト"
+    class="sticky top-11 z-40 border-b border-hairline bg-white/72 backdrop-blur-[20px] backdrop-saturate-[180%]"
+  >
+    <div
+      class="mx-auto flex h-12 max-w-[980px] items-center gap-2 px-4 text-[12px] tracking-[-0.01em]"
+    >
+      <a href="/" class="text-ink-2 transition-colors hover:text-ink">ホーム</a>
+      <span class="text-ink-3" aria-hidden="true">/</span>
+      <a href="/category/" class="text-ink-2 transition-colors hover:text-ink">カテゴリー</a>
+      <span class="text-ink-3" aria-hidden="true">/</span>
+      <span class="font-semibold" style={`color:${category.color}`}>{category.label}</span>
+    </div>
+  </nav>
+
+  <!-- カテゴリーヘッダー -->
+  <header class="bg-white">
+    <div class="mx-auto max-w-[780px] px-4 py-14 text-center sm:py-20">
+      <p class="text-[72px] leading-none" aria-hidden="true">{category.emoji}</p>
+      <h1
+        class="mt-6 text-[40px] leading-[1.05] font-semibold tracking-[-0.015em] text-balance text-ink sm:text-[56px]"
+      >
+        {category.label}
+      </h1>
+      <p
+        class="mx-auto mt-5 max-w-[600px] text-[17px] leading-[1.47] tracking-[-0.01em] text-ink-2 sm:text-[19px]"
+      >
+        {category.description}
+      </p>
+      <p class="mt-6 text-[12px] text-ink-3">全 {category.count} 記事</p>
+    </div>
+  </header>
+
+  <!-- 記事一覧 -->
+  <section class="bg-white pb-16 sm:pb-20">
+    <div class="mx-auto max-w-[980px] px-4">
+      <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {category.posts.map((post) => <ArticleCard post={post} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- 他のカテゴリー -->
+  {
+    others.length > 0 && (
+      <section class="bg-surface py-16 sm:py-20">
+        <div class="mx-auto max-w-[980px] px-4 text-center">
+          <h2 class="text-[32px] leading-[1.09] font-semibold tracking-[-0.015em] text-ink sm:text-[40px]">
+            他のカテゴリー
+          </h2>
+          <ul class="mt-8 flex flex-wrap justify-center gap-3">
+            {others.map((other) => (
+              <li>
+                <a
+                  href={other.href}
+                  class="inline-flex items-center gap-2 rounded-full border border-hairline bg-white px-4 py-2 text-[14px] tracking-[-0.01em] transition-colors hover:bg-surface"
+                >
+                  <span aria-hidden="true">{other.emoji}</span>
+                  <span class="font-semibold" style={`color:${other.color}`}>{other.label}</span>
+                  <span class="text-ink-3">{other.count}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+          <p class="mt-10">
+            <a href="/#articles" class="a-link text-[17px] tracking-[-0.01em]">
+              すべての比較記事を見る
+            </a>
+          </p>
+        </div>
+      </section>
+    )
+  }
+</BaseLayout>
