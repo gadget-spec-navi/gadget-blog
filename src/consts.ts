@@ -13,6 +13,12 @@ export const NAV_LINKS = [
 ];
 
 /**
+ * Google アナリティクス（GA4）の測定ID。
+ * 空にすると計測タグを出力しない。開発サーバー（astro dev）では常に無効。
+ */
+export const GA_MEASUREMENT_ID: string = 'G-2GB4QPYTB4';
+
+/**
  * フッターのリンク（プライバシーポリシー・お問い合わせ）。
  */
 export const FOOTER_LINKS = [

@@ -1,5 +1,5 @@
 ---
-import { SITE_TITLE } from '../consts';
+import { SITE_TITLE, GA_MEASUREMENT_ID } from '../consts';
 
 interface Props {
   title: string;
@@ -8,6 +8,9 @@ interface Props {
 
 const { title, description } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+// 計測タグは本番ビルドのみ出力する（開発中のアクセスを計測に混ぜない）
+const enableAnalytics = import.meta.env.PROD && GA_MEASUREMENT_ID !== '';
 ---
 
 <meta charset="utf-8" />
@@ -29,3 +32,24 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />
+
+<!-- Google アナリティクス（GA4） -->
+{
+  enableAnalytics && (
+    <Fragment>
+      <script
+        is:inline
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+      />
+      {/* define:vars は IIFE で包まれ gtag がグローバルに残らないため、公式スニペットをそのまま出力する */}
+      <script
+        is:inline
+        set:html={`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '${GA_MEASUREMENT_ID}');`}
+      />
+    </Fragment>
+  )
+}
