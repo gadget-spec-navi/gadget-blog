@@ -4,7 +4,7 @@ description: 'ノイキャンイヤホンの二大定番を、スペック・音
 pubDate: 2026-08-13
 category: 'イヤホン'
 amazonUrl: 'https://www.amazon.co.jp/s?k=%E3%83%8E%E3%82%A4%E3%82%BA%E3%82%AD%E3%83%A3%E3%83%B3%E3%82%BB%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%A4%E3%83%A4%E3%83%9B%E3%83%B3&tag=your-amazon-id-22'
-rakutenUrl: 'https://search.rakuten.co.jp/search/mall/%E3%83%8E%E3%82%A4%E3%82%BA%E3%82%AD%E3%83%A3%E3%83%B3%E3%82%BB%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%A4%E3%83%A4%E3%83%9B%E3%83%B3/'
+rakutenUrl: 'https://a.r10.to/hYksqX'
 productName: 'AirPods Pro（第2世代）と WF-1000XM5'
 emoji: '🎧'
 heroImage: '/images/airpods-pro2-vs-wf1000xm5-hero.svg'
@@ -16,11 +16,11 @@ comparison:
     - name: 'AirPods Pro（第2世代）'
       badge: 'Apple派の定番'
       amazonUrl: 'https://www.amazon.co.jp/s?k=AirPods+Pro+%E7%AC%AC2%E4%B8%96%E4%BB%A3&tag=your-amazon-id-22'
-      rakutenUrl: 'https://search.rakuten.co.jp/search/mall/AirPods+Pro+%E7%AC%AC2%E4%B8%96%E4%BB%A3/'
+      rakutenUrl: 'https://a.r10.to/hYksqX'
     - name: 'SONY WF-1000XM5'
       badge: '静けさ最優先'
       amazonUrl: 'https://www.amazon.co.jp/s?k=WF-1000XM5&tag=your-amazon-id-22'
-      rakutenUrl: 'https://search.rakuten.co.jp/search/mall/WF-1000XM5/'
+      rakutenUrl: 'https://a.r10.to/h574DN'
   specs:
     - label: '発売'
       values: ['2022年9月（USB-C版 2023年9月）', '2023年9月']
@@ -154,6 +154,13 @@ WF-1000XM5 は **2台同時接続（マルチポイント）** に対応して�
 - ケースが約50.8gとやや重く、ポケットでの存在感がある
 - 連続再生6時間は、この価格帯では平均的
 
+<div class="not-prose my-10">
+<p class="mb-3 text-[12px] leading-[1.33] text-ink-3">PR: 楽天市場の商品ページへのリンクです（価格・在庫は掲載時点のもの）</p>
+<div class="overflow-x-auto">
+<table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:240px"><a href="https://hb.afl.rakuten.co.jp/ichiba/568a60ae.66322f9d.568a60af.2b3ea381/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3-2%2F4549995433937%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hgb/568a60ae.66322f9d.568a60af.2b3ea381/?me_id=1407668&item_id=10009694&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Ftry3-2%2Fcabinet%2F12383927%2F4549995433937a.jpg%3F_ex%3D240x240&s=240x240&t=picttext" border="0" style="margin:2px" alt="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]" title="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]"></a></td><td style="vertical-align:top;width:248px;display: block;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/568a60ae.66322f9d.568a60af.2b3ea381/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3-2%2F4549995433937%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">【USB-C充電】 AirPods Pro 第2世代 本体 MagSafe対応ケース USB type Cケーブル 最新 アクティブノイズキャンセリング MTJV3J/A イヤホン ワイヤレスイヤホン カナル型 MTJV3J 新品 未開封 メーカー1年保証 第二世代 type-C 正規品 2023モデル</a><br><span >価格：34,980円（税込、送料無料)</span> <span style="color:#BBB">(2026/8/13時点)</span></p><div style="margin:10px;"><a href="https://hb.afl.rakuten.co.jp/ichiba/568a60ae.66322f9d.568a60af.2b3ea381/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3-2%2F4549995433937%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://static.affiliate.rakuten.co.jp/makelink/rl.svg" style="float:left;max-height:27px;width:auto;margin-top:0" ></a><a href="https://hb.afl.rakuten.co.jp/ichiba/568a60ae.66322f9d.568a60af.2b3ea381/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3-2%2F4549995433937%2F%3Fscid%3Daf_pc_bbtn&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><div style="float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;"> 楽天で購入 </div></a></div></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
+</div>
+</div>
+
 ## SONY WF-1000XM5 のメリット・デメリット
 
 ### メリット
@@ -172,6 +179,13 @@ WF-1000XM5 は **2台同時接続（マルチポイント）** に対応して�
 - 機能が多いぶん、設定を詰めないと本領を発揮しない
 - フォーム製イヤーピースは劣化する消耗品
 - 接続の切り替えは、AirPodsのような「何もしなくていい」体験ではない
+
+<div class="not-prose my-10">
+<p class="mb-3 text-[12px] leading-[1.33] text-ink-3">PR: 楽天市場の商品ページへのリンクです（価格・在庫は掲載時点のもの）</p>
+<div class="overflow-x-auto">
+<table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:240px"><a href="https://hb.afl.rakuten.co.jp/ichiba/568a62dd.fbdab4bd.568a62de.4c79ea2b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4548736143470%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hgb/568a62dd.fbdab4bd.568a62de.4c79ea2b/?me_id=1203403&item_id=10035911&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Ftry3%2Fcabinet%2F10496327%2F4548736143470.jpg%3F_ex%3D240x240&s=240x240&t=picttext" border="0" style="margin:2px" alt="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]" title="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]"></a></td><td style="vertical-align:top;width:248px;display: block;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/568a62dd.fbdab4bd.568a62de.4c79ea2b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4548736143470%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">【国内正規品】SONY ワイヤレス イヤホン WF-1000XM5 マイク付き Bluetooth ブラック ヘッドフォン ワイヤレスイヤフォン ワイヤレスイヤ ヘッドセット ノイキャン ワイヤレス 黒 ソニー WF1000XM5 WF1000XM5(B) 新品</a><br><span >価格：26,989円（税込、送料無料)</span> <span style="color:#BBB">(2026/8/13時点)</span></p><div style="margin:10px;"><a href="https://hb.afl.rakuten.co.jp/ichiba/568a62dd.fbdab4bd.568a62de.4c79ea2b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4548736143470%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://static.affiliate.rakuten.co.jp/makelink/rl.svg" style="float:left;max-height:27px;width:auto;margin-top:0" ></a><a href="https://hb.afl.rakuten.co.jp/ichiba/568a62dd.fbdab4bd.568a62de.4c79ea2b/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Ftry3%2F4548736143470%2F%3Fscid%3Daf_pc_bbtn&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><div style="float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;"> 楽天で購入 </div></a></div></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
+</div>
+</div>
 
 ## どんな人におすすめか
 
