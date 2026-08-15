@@ -4,7 +4,7 @@ description: 'ノイズキャンセリングの代名詞Boseと、音質・機�
 pubDate: 2026-08-13
 category: 'イヤホン'
 amazonUrl: 'https://www.amazon.co.jp/s?k=%E3%83%8E%E3%82%A4%E3%82%BA%E3%82%AD%E3%83%A3%E3%83%B3%E3%82%BB%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%A4%E3%83%A4%E3%83%9B%E3%83%B3&tag=your-amazon-id-22'
-rakutenUrl: 'https://search.rakuten.co.jp/search/mall/%E3%83%8E%E3%82%A4%E3%82%BA%E3%82%AD%E3%83%A3%E3%83%B3%E3%82%BB%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%A4%E3%83%A4%E3%83%9B%E3%83%B3/'
+rakutenUrl: 'https://a.r10.to/h41U2w'
 productName: 'Bose QuietComfort Earbuds と SONY WF-1000XM5'
 emoji: '🎧'
 tags: ['Bose', 'WF-1000XM5', 'ノイズキャンセリング']
@@ -14,7 +14,7 @@ comparison:
     - name: 'Bose QuietComfort Earbuds'
       badge: 'ANC専業メーカー'
       amazonUrl: 'https://www.amazon.co.jp/s?k=Bose+QuietComfort+Earbuds&tag=your-amazon-id-22'
-      rakutenUrl: 'https://search.rakuten.co.jp/search/mall/Bose+QuietComfort+Earbuds/'
+      rakutenUrl: 'https://a.r10.to/h41U2w'
     - name: 'SONY WF-1000XM5'
       badge: '音質・機能で対抗'
       amazonUrl: 'https://www.amazon.co.jp/s?k=WF-1000XM5&tag=your-amazon-id-22'
