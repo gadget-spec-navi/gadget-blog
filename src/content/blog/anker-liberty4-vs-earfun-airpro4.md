@@ -93,6 +93,10 @@ Air Pro 4は本体・ケースともに軽量で、タッチ操作のクリッ�
 
 連続再生・ケース込み総再生ともに、わずかにAir Pro 4が上回ります。加えて防水性能もAir Pro 4がIPX5、Liberty 4がIPX4と一段上です。ただしLiberty 4はワイヤレス充電ケースに対応しているため、「**置くだけで充電できる」利便性**を重視するならこの差は逆転します。
 
+![連続再生とケース込み総再生の比較。連続再生はAnker Soundcore Liberty 4が約6.5時間、EarFun Air Pro 4が約7時間。ケース込み総再生はLiberty 4が約28時間、Air Pro 4が約30時間。](/images/liberty4-vs-airpro4-battery.svg)
+
+*図: Anker / EarFun 各製品仕様ページの公表値をもとに当サイトで作成。*
+
 ## Anker Soundcore Liberty 4 のメリット・デメリット
 
 ### メリット

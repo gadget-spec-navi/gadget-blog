@@ -75,6 +75,10 @@ Apple Watch Series 10はiPhoneとのペアリングが必須で、Androidスマ�
 
 Galaxy Watch 7は最大30〜40時間と、Apple Watchの1.5〜2倍近く持ちます。**2日に1回の充電で足りる**ため、睡眠計測をしながらでも充電のタイミングに悩みにくいのが強みです。
 
+![バッテリー持続時間の比較。Apple Watch Series 10は最大18時間、Galaxy Watch 7は最大30〜40時間。](/images/applewatch10-vs-galaxywatch7-battery.svg)
+
+*図: Apple / Samsung 各製品仕様ページの公表値をもとに当サイトで作成。*
+
 ## 独自の健康機能 — 「無呼吸の通知」か「エナジースコア」か
 
 Apple Watch Series 10の目玉機能は、睡眠時無呼吸の兆候を検知して通知してくれる機能です。医療機器としての診断ではありませんが、**いびきや呼吸の乱れに気づくきっかけ**として役立ちます。

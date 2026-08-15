@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 820" role="img"
+     aria-label="実売価格・本体重量の比較">
+  <title>価格も重さもナノケアが軽い</title>
+
+  <style>
+    .f     { font-family: 'Hiragino Sans','Hiragino Kaku Gothic ProN','Helvetica Neue',Arial,sans-serif; }
+    .title { font-size: 38px; font-weight: 600; letter-spacing: -0.015em; fill: #1d1d1f; }
+    .lede  { font-size: 24px; fill: #6e6e73; }
+    .panel { font-size: 24px; font-weight: 600; fill: #1d1d1f; }
+    .name  { font-size: 24px; fill: #6e6e73; }
+    .val   { font-size: 30px; font-weight: 600; fill: #1d1d1f; }
+    .leg   { font-size: 22px; fill: #6e6e73; }
+    .cap   { font-size: 21px; fill: #86868b; }
+  </style>
+
+  <rect width="1600" height="820" fill="#ffffff"/>
+  <rect x="30" y="30" width="1540" height="760" rx="28" fill="#f5f5f7"/>
+
+  <text class="f title" x="90" y="118">価格も重さもナノケアが軽い</text>
+  <text class="f lede"  x="90" y="164">実売価格・本体重量の比較</text>
+
+  <g transform="translate(1090 100)">
+    <rect x="0" y="-16" width="20" height="20" rx="5" fill="#0071e3"/>
+    <text class="f leg" x="32" y="0">Dyson Supersonic</text>
+    <rect x="0" y="34" width="20" height="20" rx="5" fill="#b64400"/>
+    <text class="f leg" x="32" y="50">パナソニック ナノケア</text>
+  </g>
+
+  <g transform="translate(0 0)">
+    <text class="f panel" x="90" y="300">実売価格</text>
+    <text class="f name" x="120" y="382">Dyson Supersonic</text>
+    <rect x="120" y="398" width="511" height="52" rx="8" fill="#0071e3"/>
+    <text class="f val" x="649" y="436">54,780円</text>
+    <text class="f name" x="120" y="500">パナソニック ナノケア</text>
+    <rect x="120" y="516" width="371" height="52" rx="8" fill="#b64400"/>
+    <text class="f val" x="509" y="554">39,800円</text>
+    <line x1="90" y1="340" x2="90" y2="568" stroke="#d2d2d7" stroke-width="2"/>
+  </g>
+  <g transform="translate(790 0)">
+    <text class="f panel" x="90" y="300">本体重量</text>
+    <text class="f name" x="120" y="382">Dyson Supersonic</text>
+    <rect x="120" y="398" width="497" height="52" rx="8" fill="#0071e3"/>
+    <text class="f val" x="635" y="436">約665g</text>
+    <text class="f name" x="120" y="500">パナソニック ナノケア</text>
+    <rect x="120" y="516" width="448" height="52" rx="8" fill="#b64400"/>
+    <text class="f val" x="586" y="554">約600g</text>
+    <line x1="90" y1="340" x2="90" y2="568" stroke="#d2d2d7" stroke-width="2"/>
+  </g>
+
+  <text class="f cap" x="90" y="658">
+    ※ 実売価格は執筆時点の目安です。モデルやカラー・キャンペーンにより変動します。
+  </text>
+  <text class="f cap" x="90" y="694">
+    ※ 出典: Dyson / パナソニック 各製品仕様ページの公表値
+  </text>
+</svg>

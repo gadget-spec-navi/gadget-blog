@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 760" role="img"
+     aria-label="公称バッテリー駆動時間の比較">
+  <title>バッテリーはMacBook Airが1.5倍</title>
+
+  <style>
+    .f     { font-family: 'Hiragino Sans','Hiragino Kaku Gothic ProN','Helvetica Neue',Arial,sans-serif; }
+    .title { font-size: 38px; font-weight: 600; letter-spacing: -0.015em; fill: #1d1d1f; }
+    .lede  { font-size: 24px; fill: #6e6e73; }
+    .panel { font-size: 24px; font-weight: 600; fill: #1d1d1f; }
+    .name  { font-size: 24px; fill: #6e6e73; }
+    .val   { font-size: 30px; font-weight: 600; fill: #1d1d1f; }
+    .leg   { font-size: 22px; fill: #6e6e73; }
+    .cap   { font-size: 21px; fill: #86868b; }
+  </style>
+
+  <rect width="1600" height="760" fill="#ffffff"/>
+  <rect x="30" y="30" width="1540" height="700" rx="28" fill="#f5f5f7"/>
+
+  <text class="f title" x="90" y="118">バッテリーはMacBook Airが1.5倍</text>
+  <text class="f lede"  x="90" y="164">公称バッテリー駆動時間の比較</text>
+
+  <g transform="translate(1090 100)">
+    <rect x="0" y="-16" width="20" height="20" rx="5" fill="#0071e3"/>
+    <text class="f leg" x="32" y="0">MacBook Air M3</text>
+    <rect x="0" y="34" width="20" height="20" rx="5" fill="#b64400"/>
+    <text class="f leg" x="32" y="50">Dell XPS 13</text>
+  </g>
+
+  <g transform="translate(0 0)">
+    <text class="f name" x="120" y="382">MacBook Air M3</text>
+    <rect x="120" y="398" width="504" height="52" rx="8" fill="#0071e3"/>
+    <text class="f val" x="642" y="436">最大18時間</text>
+    <text class="f name" x="120" y="500">Dell XPS 13</text>
+    <rect x="120" y="516" width="336" height="52" rx="8" fill="#b64400"/>
+    <text class="f val" x="474" y="554">最大12時間</text>
+    <line x1="90" y1="340" x2="90" y2="568" stroke="#d2d2d7" stroke-width="2"/>
+  </g>
+
+  <text class="f cap" x="90" y="658">
+    ※ いずれもメーカー公称の動画再生時間です。実際の駆動時間は用途や画面輝度で変動します。
+  </text>
+  <text class="f cap" x="90" y="694">
+    ※ 出典: Apple / Dell 各製品仕様ページの公表値
+  </text>
+</svg>
