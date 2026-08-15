@@ -4,7 +4,7 @@ description: 'Appleの新定番iPhone 16eと、Googleの実力派ミドルレン
 pubDate: 2026-08-15
 category: 'スマートフォン'
 amazonUrl: 'https://www.amazon.co.jp/s?k=%E3%82%B9%E3%83%9E%E3%83%9B%20%E3%83%9F%E3%83%89%E3%83%AB%E3%83%AC%E3%83%B3%E3%82%B8&tag=your-amazon-id-22'
-rakutenUrl: 'https://search.rakuten.co.jp/search/mall/%E3%82%B9%E3%83%9E%E3%83%9B%20%E3%83%9F%E3%83%89%E3%83%AB%E3%83%AC%E3%83%B3%E3%82%B8/'
+rakutenUrl: 'https://a.r10.to/hgIoBh'
 productName: 'iPhone 16e と Google Pixel 9a'
 emoji: '📱'
 tags: ['iPhone', 'Pixel', 'ミドルレンジ']
@@ -14,11 +14,11 @@ comparison:
     - name: 'iPhone 16e'
       badge: 'Apple入門機'
       amazonUrl: 'https://www.amazon.co.jp/s?k=iPhone+16e&tag=your-amazon-id-22'
-      rakutenUrl: 'https://search.rakuten.co.jp/search/mall/iPhone+16e/'
+      rakutenUrl: 'https://a.r10.to/hgIoBh'
     - name: 'Google Pixel 9a'
       badge: 'コスパ最強候補'
       amazonUrl: 'https://www.amazon.co.jp/s?k=Google+Pixel+9a&tag=your-amazon-id-22'
-      rakutenUrl: 'https://search.rakuten.co.jp/search/mall/Google+Pixel+9a/'
+      rakutenUrl: 'https://a.r10.to/hgqyNm'
   specs:
     - label: '実売価格（128GB）'
       values: ['99,800円', '79,900円']

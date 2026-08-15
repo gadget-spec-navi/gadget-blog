@@ -4,7 +4,7 @@ description: '高級ドライヤーの二大巨頭、Dyson Supersonicとパナ�
 pubDate: 2026-08-15
 category: '生活家電'
 amazonUrl: 'https://www.amazon.co.jp/s?k=%E9%AB%98%E7%B4%9A%E3%83%89%E3%83%A9%E3%82%A4%E3%83%A4%E3%83%BC&tag=your-amazon-id-22'
-rakutenUrl: 'https://search.rakuten.co.jp/search/mall/%E9%AB%98%E7%B4%9A%E3%83%89%E3%83%A9%E3%82%A4%E3%83%A4%E3%83%BC/'
+rakutenUrl: 'https://a.r10.to/h5WY23'
 productName: 'Dyson Supersonic と パナソニック ナノケア'
 emoji: '🤖'
 tags: ['Dyson', 'ナノケア', 'ヘアドライヤー']
@@ -14,11 +14,11 @@ comparison:
     - name: 'Dyson Supersonic'
       badge: '風量・温度制御特化'
       amazonUrl: 'https://www.amazon.co.jp/s?k=Dyson+Supersonic&tag=your-amazon-id-22'
-      rakutenUrl: 'https://search.rakuten.co.jp/search/mall/Dyson+Supersonic/'
+      rakutenUrl: 'https://a.r10.to/h5WY23'
     - name: 'パナソニック ナノケア'
       badge: '髪の水分ケア特化'
       amazonUrl: 'https://www.amazon.co.jp/s?k=%E3%83%8A%E3%83%8E%E3%82%B1%E3%82%A2+%E3%83%89%E3%83%A9%E3%82%A4%E3%83%A4%E3%83%BC&tag=your-amazon-id-22'
-      rakutenUrl: 'https://search.rakuten.co.jp/search/mall/%E3%83%8A%E3%83%8E%E3%82%B1%E3%82%A2+%E3%83%89%E3%83%A9%E3%82%A4%E3%83%A4%E3%83%BC/'
+      rakutenUrl: 'https://a.r10.to/hRIuNY'
   specs:
     - label: '実売価格'
       values: ['54,780円前後', '39,800円前後']

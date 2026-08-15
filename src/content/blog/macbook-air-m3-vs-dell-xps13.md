@@ -14,7 +14,7 @@ comparison:
     - name: 'MacBook Air M3（13インチ）'
       badge: 'ファンレス静音'
       amazonUrl: 'https://www.amazon.co.jp/s?k=MacBook+Air+M3&tag=your-amazon-id-22'
-      rakutenUrl: 'https://search.rakuten.co.jp/search/mall/MacBook+Air+M3/'
+      rakutenUrl: 'https://a.r10.to/hgX7LK'
     - name: 'Dell XPS 13'
       badge: 'OLED画面'
       amazonUrl: 'https://www.amazon.co.jp/s?k=Dell+XPS+13&tag=your-amazon-id-22'

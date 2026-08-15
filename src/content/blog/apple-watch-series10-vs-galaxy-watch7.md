@@ -4,7 +4,7 @@ description: 'iPhone専用のApple Watch Series 10と、Android専用のGalaxy W
 pubDate: 2026-08-15
 category: 'スマートウォッチ'
 amazonUrl: 'https://www.amazon.co.jp/s?k=%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81&tag=your-amazon-id-22'
-rakutenUrl: 'https://search.rakuten.co.jp/search/mall/%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81/'
+rakutenUrl: 'https://a.r10.to/hPLpFB'
 productName: 'Apple Watch Series 10 と Galaxy Watch 7'
 emoji: '⌚'
 tags: ['Apple Watch', 'Galaxy Watch', 'スマートウォッチ']
@@ -14,11 +14,11 @@ comparison:
     - name: 'Apple Watch Series 10'
       badge: 'iPhone専用'
       amazonUrl: 'https://www.amazon.co.jp/s?k=Apple+Watch+Series+10&tag=your-amazon-id-22'
-      rakutenUrl: 'https://search.rakuten.co.jp/search/mall/Apple+Watch+Series+10/'
+      rakutenUrl: 'https://a.r10.to/hPLpFB'
     - name: 'Galaxy Watch 7'
       badge: 'Android専用'
       amazonUrl: 'https://www.amazon.co.jp/s?k=Galaxy+Watch+7&tag=your-amazon-id-22'
-      rakutenUrl: 'https://search.rakuten.co.jp/search/mall/Galaxy+Watch+7/'
+      rakutenUrl: 'https://a.r10.to/hghkNo'
   specs:
     - label: '実売価格（最小構成）'
       values: ['59,800円', '47,300円']
