@@ -4,7 +4,7 @@ description: 'ファンレス静音のMacBook Air M3と、OLED画面が魅力の
 pubDate: 2026-08-15
 category: 'ノートPC'
 amazonUrl: 'https://www.amazon.co.jp/s?k=%E8%BB%BD%E9%87%8F%E3%83%8E%E3%83%BC%E3%83%88PC&tag=your-amazon-id-22'
-rakutenUrl: 'https://search.rakuten.co.jp/search/mall/%E8%BB%BD%E9%87%8F%E3%83%8E%E3%83%BC%E3%83%88PC/'
+rakutenUrl: 'https://a.r10.to/hgX7LK'
 productName: 'MacBook Air M3 と Dell XPS 13'
 emoji: '💻'
 tags: ['MacBook Air', 'Dell XPS', 'ノートPC']
@@ -18,7 +18,7 @@ comparison:
     - name: 'Dell XPS 13'
       badge: 'OLED画面'
       amazonUrl: 'https://www.amazon.co.jp/s?k=Dell+XPS+13&tag=your-amazon-id-22'
-      rakutenUrl: 'https://search.rakuten.co.jp/search/mall/Dell+XPS+13/'
+      rakutenUrl: 'https://a.r10.to/hYlq2x'
   specs:
     - label: '実売価格（最小構成）'
       values: ['164,800円', '179,800円前後']
