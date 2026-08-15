@@ -14,9 +14,18 @@ interface Props {
   card?: boolean;
   /** 表内で使う小さいサイズ */
   compact?: boolean;
+  /** false にすると外側の my-12 を付けない（グリッドで複数枚並べる場合、外側でまとめて余白を取るため） */
+  margin?: boolean;
 }
 
-const { amazonUrl, rakutenUrl, productName, card = true, compact = false } = Astro.props;
+const {
+  amazonUrl,
+  rakutenUrl,
+  productName,
+  card = true,
+  compact = false,
+  margin = true,
+} = Astro.props;
 
 const hasLink = Boolean(amazonUrl || rakutenUrl);
 
@@ -32,7 +41,9 @@ const rakuten = `${base} ${size} bg-rakuten text-white hover:bg-rakuten-hover fo
   hasLink && (
     <div
       class={
-        card ? 'not-prose my-12 rounded-tile bg-surface px-6 py-8 text-center sm:px-10' : 'not-prose'
+        card
+          ? `not-prose ${margin ? 'my-12' : ''} rounded-tile bg-surface px-6 py-8 text-center sm:px-10 h-full`
+          : 'not-prose'
       }
     >
       {card && (

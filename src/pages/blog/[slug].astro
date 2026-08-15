@@ -122,11 +122,27 @@ const related = (await getCollection('blog', ({ data }) => !data.draft))
       </div>
 
       <!-- 記事末尾の購入ボタン -->
-      <AffiliateButtons
-        amazonUrl={amazonUrl}
-        rakutenUrl={rakutenUrl}
-        productName={productName ?? title}
-      />
+      <!-- 比較記事（comparison あり）は製品ごとに1枚ずつ出す。1製品レビューは従来どおり1枚 -->
+      {
+        comparison ? (
+          <div class="not-prose my-12 grid gap-4 sm:grid-cols-2">
+            {comparison.products.map((product) => (
+              <AffiliateButtons
+                amazonUrl={product.amazonUrl}
+                rakutenUrl={product.rakutenUrl}
+                productName={product.name}
+                margin={false}
+              />
+            ))}
+          </div>
+        ) : (
+          <AffiliateButtons
+            amazonUrl={amazonUrl}
+            rakutenUrl={rakutenUrl}
+            productName={productName ?? title}
+          />
+        )
+      }
 
       <p class="text-center">
         <a href="/" class="a-link text-[17px] tracking-[-0.01em]">すべての比較記事を見る</a>
