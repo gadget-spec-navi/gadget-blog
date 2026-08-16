@@ -87,6 +87,13 @@ export const CATEGORIES = [
     color: '#bf4080',
     description: '吸引力、静音性、メンテナンス頻度。カタログ値と使い勝手の両面から。',
   },
+  {
+    slug: 'desk-gear',
+    label: 'デスク周辺機器',
+    emoji: '🖱️',
+    color: '#5c5ce0',
+    description: 'マウス・ハブ・照明など、作業机まわりの一台。価格と使い勝手のバランスで選ぶ。',
+  },
 ] as const;
 
 export type Category = (typeof CATEGORIES)[number];
