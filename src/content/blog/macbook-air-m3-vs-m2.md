@@ -17,7 +17,7 @@ comparison:
       rakutenUrl: 'https://a.r10.to/hgX7LK'
     - name: 'MacBook Air M2'
       badge: 'コスパ最優先'
-      amazonUrl: 'https://www.amazon.co.jp/s?k=MacBook+Air+M2&tag=your-amazon-id-22'
+      amazonUrl: 'https://link.amazon/B09T8kne8'
       rakutenUrl: 'https://a.r10.to/hgSutw'
   specs:
     - label: '発売'
