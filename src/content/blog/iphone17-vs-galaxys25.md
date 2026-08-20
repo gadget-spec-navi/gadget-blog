@@ -17,7 +17,7 @@ comparison:
       rakutenUrl: 'https://a.r10.to/hgejCP'
     - name: 'Galaxy S25'
       badge: 'Android最新フラッグシップ'
-      amazonUrl: 'https://www.amazon.co.jp/s?k=Galaxy+S25&tag=your-amazon-id-22'
+      amazonUrl: 'https://link.amazon/B023QibiP'
       rakutenUrl: 'https://a.r10.to/h4UV97'
   specs:
     - label: '実売価格（256GB）'
