@@ -17,7 +17,7 @@ comparison:
       rakutenUrl: 'https://a.r10.to/h41U2w'
     - name: 'SONY WF-1000XM5'
       badge: '音質・機能で対抗'
-      amazonUrl: 'https://www.amazon.co.jp/s?k=WF-1000XM5&tag=your-amazon-id-22'
+      amazonUrl: 'https://link.amazon/B0dRQrU1E'
       rakutenUrl: 'https://a.r10.to/h574DN'
   specs:
     - label: '実売価格'

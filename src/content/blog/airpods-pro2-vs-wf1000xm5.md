@@ -19,7 +19,7 @@ comparison:
       rakutenUrl: 'https://a.r10.to/hYksqX'
     - name: 'SONY WF-1000XM5'
       badge: '静けさ最優先'
-      amazonUrl: 'https://www.amazon.co.jp/s?k=WF-1000XM5&tag=your-amazon-id-22'
+      amazonUrl: 'https://link.amazon/B0dRQrU1E'
       rakutenUrl: 'https://a.r10.to/h574DN'
   specs:
     - label: '発売'
