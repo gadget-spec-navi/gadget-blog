@@ -3,7 +3,7 @@ title: '【5万円台ミドルレンジ対決】iPhone 16e vs Google Pixel 9a �
 description: 'Appleの新定番iPhone 16eと、Googleの実力派ミドルレンジPixel 9aを比較。価格差2万円の中身と、どちらを選ぶべきかをカメラ・画面・バッテリーから整理しました。'
 pubDate: 2026-08-15
 category: 'スマートフォン'
-amazonUrl: 'https://www.amazon.co.jp/s?k=%E3%82%B9%E3%83%9E%E3%83%9B%20%E3%83%9F%E3%83%89%E3%83%AB%E3%83%AC%E3%83%B3%E3%82%B8&tag=your-amazon-id-22'
+amazonUrl: 'https://link.amazon/B05O5bdWc'
 rakutenUrl: 'https://a.r10.to/hgIoBh'
 productName: 'iPhone 16e と Google Pixel 9a'
 emoji: '📱'
@@ -13,7 +13,7 @@ comparison:
   products:
     - name: 'iPhone 16e'
       badge: 'Apple入門機'
-      amazonUrl: 'https://www.amazon.co.jp/s?k=iPhone+16e&tag=your-amazon-id-22'
+      amazonUrl: 'https://link.amazon/B05O5bdWc'
       rakutenUrl: 'https://a.r10.to/hgIoBh'
     - name: 'Google Pixel 9a'
       badge: 'コスパ最強候補'
