@@ -3,7 +3,7 @@ title: '【1万円台コスパ最強対決】Anker Soundcore Liberty 4 vs EarFun
 description: '1万円台で「全部入り」のAnker Soundcore Liberty 4と、1万円以下の実力派EarFun Air Pro 4を比較。数千円の価格差にどれだけの意味があるのか、用途別に整理しました。'
 pubDate: 2026-08-13
 category: 'イヤホン'
-amazonUrl: 'https://www.amazon.co.jp/s?k=%E3%82%B3%E3%82%B9%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E3%83%AF%E3%82%A4%E3%83%A4%E3%83%9B%E3%83%B3&tag=your-amazon-id-22'
+amazonUrl: 'https://link.amazon/B0iNQFCzy'
 rakutenUrl: 'https://a.r10.to/hgfrlX'
 productName: 'Anker Soundcore Liberty 4 と EarFun Air Pro 4'
 emoji: '🎧'
@@ -13,7 +13,7 @@ comparison:
   products:
     - name: 'Anker Soundcore Liberty 4'
       badge: '全部入り'
-      amazonUrl: 'https://www.amazon.co.jp/s?k=Anker+Soundcore+Liberty+4&tag=your-amazon-id-22'
+      amazonUrl: 'https://link.amazon/B0iNQFCzy'
       rakutenUrl: 'https://a.r10.to/hgfrlX'
     - name: 'EarFun Air Pro 4'
       badge: '1万円以下'
