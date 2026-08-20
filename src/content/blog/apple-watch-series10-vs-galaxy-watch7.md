@@ -17,7 +17,7 @@ comparison:
       rakutenUrl: 'https://a.r10.to/hPLpFB'
     - name: 'Galaxy Watch 7'
       badge: 'Android専用'
-      amazonUrl: 'https://www.amazon.co.jp/s?k=Galaxy+Watch+7&tag=your-amazon-id-22'
+      amazonUrl: 'https://link.amazon/B0czWNsqF'
       rakutenUrl: 'https://a.r10.to/hghkNo'
   specs:
     - label: '実売価格（最小構成）'
