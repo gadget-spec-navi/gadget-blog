@@ -17,7 +17,7 @@ comparison:
       rakutenUrl: 'https://a.r10.to/hgxk6B'
     - name: 'UGREEN Revodok Pro（10-in-1）'
       badge: 'ポート数最多'
-      amazonUrl: 'https://www.amazon.co.jp/s?k=UGREEN+Revodok+Pro&tag=your-amazon-id-22'
+      amazonUrl: 'https://link.amazon/B0hIwfkVg'
       rakutenUrl: 'https://a.r10.to/h5PQ49'
   specs:
     - label: '実売価格'
