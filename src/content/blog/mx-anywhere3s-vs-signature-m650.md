@@ -18,7 +18,7 @@ comparison:
     - name: 'ロジクール Signature M650'
       badge: 'コスパ・電池式'
       amazonUrl: 'https://link.amazon/B0hp07eQJ'
-      rakutenUrl: 'https://search.rakuten.co.jp/search/mall/Signature+M650/'
+      rakutenUrl: 'https://a.r10.to/hPJ3fh'
   specs:
     - label: '実売価格'
       values: ['9,350円前後', '3,600円前後']
