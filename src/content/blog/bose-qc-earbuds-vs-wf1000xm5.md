@@ -3,7 +3,7 @@ title: '【最強ノイキャン対決】Bose QuietComfort Earbuds vs SONY WF-10
 description: 'ノイズキャンセリングの代名詞Boseと、音質・機能で攻めるSONY WF-1000XM5を比較。静けさを最優先するならどちらか、実際の効き方の違いから整理しました。'
 pubDate: 2026-08-13
 category: 'イヤホン'
-amazonUrl: 'https://www.amazon.co.jp/s?k=%E3%83%8E%E3%82%A4%E3%82%BA%E3%82%AD%E3%83%A3%E3%83%B3%E3%82%BB%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%A4%E3%83%A4%E3%83%9B%E3%83%B3&tag=your-amazon-id-22'
+amazonUrl: 'https://link.amazon/B02vaoFvE'
 rakutenUrl: 'https://a.r10.to/h41U2w'
 productName: 'Bose QuietComfort Earbuds と SONY WF-1000XM5'
 emoji: '🎧'
@@ -13,7 +13,7 @@ comparison:
   products:
     - name: 'Bose QuietComfort Earbuds'
       badge: 'ANC専業メーカー'
-      amazonUrl: 'https://www.amazon.co.jp/s?k=Bose+QuietComfort+Earbuds&tag=your-amazon-id-22'
+      amazonUrl: 'https://link.amazon/B02vaoFvE'
       rakutenUrl: 'https://a.r10.to/h41U2w'
     - name: 'SONY WF-1000XM5'
       badge: '音質・機能で対抗'
