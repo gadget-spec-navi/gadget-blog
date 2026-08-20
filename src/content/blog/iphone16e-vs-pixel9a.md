@@ -17,7 +17,7 @@ comparison:
       rakutenUrl: 'https://a.r10.to/hgIoBh'
     - name: 'Google Pixel 9a'
       badge: 'コスパ最強候補'
-      amazonUrl: 'https://www.amazon.co.jp/s?k=Google+Pixel+9a&tag=your-amazon-id-22'
+      amazonUrl: 'https://link.amazon/B09A4H7rH'
       rakutenUrl: 'https://a.r10.to/hgqyNm'
   specs:
     - label: '実売価格（128GB）'
