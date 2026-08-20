@@ -3,7 +3,7 @@ title: '【Apple vs Android本命対決】Apple Watch Series 10 vs Galaxy Watch 
 description: 'iPhone専用のApple Watch Series 10と、Android専用のGalaxy Watch 7を比較。そもそも対応スマホが違う2機種を、バッテリー・健康機能・価格から整理しました。'
 pubDate: 2026-08-15
 category: 'スマートウォッチ'
-amazonUrl: 'https://www.amazon.co.jp/s?k=%E3%82%B9%E3%83%9E%E3%83%BC%E3%83%88%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81&tag=your-amazon-id-22'
+amazonUrl: 'https://link.amazon/B07p0hrNA'
 rakutenUrl: 'https://a.r10.to/hPLpFB'
 productName: 'Apple Watch Series 10 と Galaxy Watch 7'
 emoji: '⌚'
@@ -13,7 +13,7 @@ comparison:
   products:
     - name: 'Apple Watch Series 10'
       badge: 'iPhone専用'
-      amazonUrl: 'https://www.amazon.co.jp/s?k=Apple+Watch+Series+10&tag=your-amazon-id-22'
+      amazonUrl: 'https://link.amazon/B07p0hrNA'
       rakutenUrl: 'https://a.r10.to/hPLpFB'
     - name: 'Galaxy Watch 7'
       badge: 'Android専用'
