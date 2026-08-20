@@ -4,7 +4,7 @@ description: 'AppleとSamsungの最新フラッグシップ、iPhone 17とGalaxy
 pubDate: 2026-08-20
 category: 'スマートフォン'
 amazonUrl: 'https://www.amazon.co.jp/s?k=%E3%83%95%E3%83%A9%E3%83%83%E3%82%B0%E3%82%B7%E3%83%83%E3%83%97%E3%82%B9%E3%83%9E%E3%83%9B&tag=your-amazon-id-22'
-rakutenUrl: 'https://search.rakuten.co.jp/search/mall/%E3%83%95%E3%83%A9%E3%83%83%E3%82%B0%E3%82%B7%E3%83%83%E3%83%97%E3%82%B9%E3%83%9E%E3%83%9B/'
+rakutenUrl: 'https://a.r10.to/hgejCP'
 productName: 'iPhone 17 と Galaxy S25'
 emoji: '📱'
 tags: ['iPhone', 'Galaxy', 'フラッグシップ']
@@ -14,7 +14,7 @@ comparison:
     - name: 'iPhone 17'
       badge: 'Apple最新フラッグシップ'
       amazonUrl: 'https://www.amazon.co.jp/s?k=iPhone+17&tag=your-amazon-id-22'
-      rakutenUrl: 'https://search.rakuten.co.jp/search/mall/iPhone+17/'
+      rakutenUrl: 'https://a.r10.to/hgejCP'
     - name: 'Galaxy S25'
       badge: 'Android最新フラッグシップ'
       amazonUrl: 'https://www.amazon.co.jp/s?k=Galaxy+S25&tag=your-amazon-id-22'
