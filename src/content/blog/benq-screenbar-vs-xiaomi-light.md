@@ -3,7 +3,7 @@ title: '【目に優しいデスク照明】BenQ ScreenBar vs Xiaomi モニタ�
 description: '自動調光が魅力のBenQ ScreenBarと、圧倒的な価格の安さが魅力のXiaomiモニターライトバー1Sを比較。映り込み対策や調光機能の違いから、選び方を整理しました。'
 pubDate: 2026-08-16
 category: 'デスク周辺機器'
-amazonUrl: 'https://www.amazon.co.jp/s?k=%E3%83%A2%E3%83%8B%E3%82%BF%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%88&tag=your-amazon-id-22'
+amazonUrl: 'https://link.amazon/B0hpnRaB4'
 rakutenUrl: 'https://a.r10.to/h5M9mP'
 productName: 'BenQ ScreenBar と Xiaomi モニターライトバー1S'
 emoji: '💡'
@@ -13,7 +13,7 @@ comparison:
   products:
     - name: 'BenQ ScreenBar'
       badge: '自動調光'
-      amazonUrl: 'https://www.amazon.co.jp/s?k=BenQ+ScreenBar&tag=your-amazon-id-22'
+      amazonUrl: 'https://link.amazon/B0hpnRaB4'
       rakutenUrl: 'https://a.r10.to/h5M9mP'
     - name: 'Xiaomi モニターライトバー1S'
       badge: '圧倒的な安さ'
