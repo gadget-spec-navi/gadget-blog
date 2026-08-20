@@ -18,7 +18,7 @@ comparison:
     - name: 'Xiaomi モニターライトバー1S'
       badge: '圧倒的な安さ'
       amazonUrl: 'https://www.amazon.co.jp/s?k=Xiaomi+%E3%83%A2%E3%83%8B%E3%82%BF%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%88%E3%83%90%E3%83%BC&tag=your-amazon-id-22'
-      rakutenUrl: 'https://search.rakuten.co.jp/search/mall/Xiaomi+%E3%83%A2%E3%83%8B%E3%82%BF%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%88%E3%83%90%E3%83%BC/'
+      rakutenUrl: 'https://a.r10.to/hPodI7'
   specs:
     - label: '実売価格'
       values: ['13,200円前後', '4,490円前後']
