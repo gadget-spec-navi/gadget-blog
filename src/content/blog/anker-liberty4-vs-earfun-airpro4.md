@@ -17,7 +17,7 @@ comparison:
       rakutenUrl: 'https://a.r10.to/hgfrlX'
     - name: 'EarFun Air Pro 4'
       badge: '1万円以下'
-      amazonUrl: 'https://www.amazon.co.jp/s?k=EarFun+Air+Pro+4&tag=your-amazon-id-22'
+      amazonUrl: 'https://link.amazon/B02r2PKXp'
       rakutenUrl: 'https://a.r10.to/hYiSwq'
   specs:
     - label: '実売価格'

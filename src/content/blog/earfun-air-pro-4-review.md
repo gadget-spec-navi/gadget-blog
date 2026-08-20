@@ -3,7 +3,7 @@ title: '【1万円以下】EarFun Air Pro 4 レビュー！初心者の最初の
 description: '1万円以下でハイレゾ相当の音質とノイズキャンセリングを両立した EarFun Air Pro 4 を実際に使用。メリット・デメリットから、最初の1台に選ぶべき理由まで解説します。'
 pubDate: 2026-08-13
 category: 'イヤホン'
-amazonUrl: 'https://www.amazon.co.jp/s?k=EarFun+Air+Pro+4&tag=your-amazon-id-22'
+amazonUrl: 'https://link.amazon/B02r2PKXp'
 rakutenUrl: 'https://a.r10.to/hYiSwq'
 productName: 'EarFun Air Pro 4'
 emoji: '🎧'
