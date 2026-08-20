@@ -3,7 +3,7 @@ title: '【高性能 vs コスパ対決】ロジクール MX Anywhere 3S vs Sign
 description: '外出先での精密操作に強いMX Anywhere 3Sと、電池式で圧倒的にコスパが良いSignature M650を比較。センサー・給電方式・静音性から、自分に合うマウスの選び方を整理しました。'
 pubDate: 2026-08-16
 category: 'デスク周辺機器'
-amazonUrl: 'https://www.amazon.co.jp/s?k=%E3%83%AD%E3%82%B8%E3%82%AF%E3%83%BC%E3%83%AB+MX+Anywhere+3S&tag=your-amazon-id-22'
+amazonUrl: 'https://link.amazon/B05nEj6HH'
 rakutenUrl: 'https://a.r10.to/hPxjlx'
 productName: 'MX Anywhere 3S と Signature M650'
 emoji: '🖱️'
@@ -13,7 +13,7 @@ comparison:
   products:
     - name: 'ロジクール MX Anywhere 3S'
       badge: '高精度・携帯向け'
-      amazonUrl: 'https://www.amazon.co.jp/s?k=MX+Anywhere+3S&tag=your-amazon-id-22'
+      amazonUrl: 'https://link.amazon/B05nEj6HH'
       rakutenUrl: 'https://a.r10.to/hPxjlx'
     - name: 'ロジクール Signature M650'
       badge: 'コスパ・電池式'
