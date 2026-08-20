@@ -17,7 +17,7 @@ comparison:
       rakutenUrl: 'https://a.r10.to/h5WY23'
     - name: 'パナソニック ナノケア'
       badge: '髪の水分ケア特化'
-      amazonUrl: 'https://www.amazon.co.jp/s?k=%E3%83%8A%E3%83%8E%E3%82%B1%E3%82%A2+%E3%83%89%E3%83%A9%E3%82%A4%E3%83%A4%E3%83%BC&tag=your-amazon-id-22'
+      amazonUrl: 'https://link.amazon/B0gJ7ibsC'
       rakutenUrl: 'https://a.r10.to/hRIuNY'
   specs:
     - label: '実売価格'
