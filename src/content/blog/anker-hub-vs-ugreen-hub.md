@@ -3,7 +3,7 @@ title: '【在宅ワーク定番】Anker 553 USB-Cハブ vs UGREEN Revodok Pro �
 description: '在宅ワークの必需品、USB-Cハブの定番2機種を比較。ポート数・Ethernet速度・価格から、自分のデスク環境に合う1台の選び方を整理しました。'
 pubDate: 2026-08-16
 category: 'デスク周辺機器'
-amazonUrl: 'https://www.amazon.co.jp/s?k=USB-C%E3%83%8F%E3%83%96&tag=your-amazon-id-22'
+amazonUrl: 'https://link.amazon/B0jcjsNw6'
 rakutenUrl: 'https://a.r10.to/hgxk6B'
 productName: 'Anker 553 USB-Cハブ と UGREEN Revodok Pro'
 emoji: '🔌'
@@ -13,7 +13,7 @@ comparison:
   products:
     - name: 'Anker 553 USB-Cハブ（8-in-1）'
       badge: 'コンパクト'
-      amazonUrl: 'https://www.amazon.co.jp/s?k=Anker+553+USB-C%E3%83%8F%E3%83%96&tag=your-amazon-id-22'
+      amazonUrl: 'https://link.amazon/B0jcjsNw6'
       rakutenUrl: 'https://a.r10.to/hgxk6B'
     - name: 'UGREEN Revodok Pro（10-in-1）'
       badge: 'ポート数最多'
