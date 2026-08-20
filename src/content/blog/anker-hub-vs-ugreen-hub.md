@@ -4,7 +4,7 @@ description: '在宅ワークの必需品、USB-Cハブの定番2機種を比較
 pubDate: 2026-08-16
 category: 'デスク周辺機器'
 amazonUrl: 'https://www.amazon.co.jp/s?k=USB-C%E3%83%8F%E3%83%96&tag=your-amazon-id-22'
-rakutenUrl: 'https://search.rakuten.co.jp/search/mall/USB-C%E3%83%8F%E3%83%96/'
+rakutenUrl: 'https://a.r10.to/hgxk6B'
 productName: 'Anker 553 USB-Cハブ と UGREEN Revodok Pro'
 emoji: '🔌'
 tags: ['Anker', 'UGREEN', 'USB-Cハブ', 'デスク周辺機器', '在宅ワーク']
@@ -14,11 +14,11 @@ comparison:
     - name: 'Anker 553 USB-Cハブ（8-in-1）'
       badge: 'コンパクト'
       amazonUrl: 'https://www.amazon.co.jp/s?k=Anker+553+USB-C%E3%83%8F%E3%83%96&tag=your-amazon-id-22'
-      rakutenUrl: 'https://search.rakuten.co.jp/search/mall/Anker+553+USB-C%E3%83%8F%E3%83%96/'
+      rakutenUrl: 'https://a.r10.to/hgxk6B'
     - name: 'UGREEN Revodok Pro（10-in-1）'
       badge: 'ポート数最多'
       amazonUrl: 'https://www.amazon.co.jp/s?k=UGREEN+Revodok+Pro&tag=your-amazon-id-22'
-      rakutenUrl: 'https://search.rakuten.co.jp/search/mall/UGREEN+Revodok+Pro/'
+      rakutenUrl: 'https://a.r10.to/h5PQ49'
   specs:
     - label: '実売価格'
       values: ['5,490円前後', '6,980円前後']
