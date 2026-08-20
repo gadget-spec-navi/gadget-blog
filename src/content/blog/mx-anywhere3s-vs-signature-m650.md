@@ -4,7 +4,7 @@ description: '外出先での精密操作に強いMX Anywhere 3Sと、電池式�
 pubDate: 2026-08-16
 category: 'デスク周辺機器'
 amazonUrl: 'https://www.amazon.co.jp/s?k=%E3%83%AD%E3%82%B8%E3%82%AF%E3%83%BC%E3%83%AB+MX+Anywhere+3S&tag=your-amazon-id-22'
-rakutenUrl: 'https://search.rakuten.co.jp/search/mall/%E3%83%AD%E3%82%B8%E3%82%AF%E3%83%BC%E3%83%AB+MX+Anywhere+3S/'
+rakutenUrl: 'https://a.r10.to/hPxjlx'
 productName: 'MX Anywhere 3S と Signature M650'
 emoji: '🖱️'
 tags: ['ロジクール', 'マウス', 'デスク周辺機器', 'コスパ']
@@ -14,7 +14,7 @@ comparison:
     - name: 'ロジクール MX Anywhere 3S'
       badge: '高精度・携帯向け'
       amazonUrl: 'https://www.amazon.co.jp/s?k=MX+Anywhere+3S&tag=your-amazon-id-22'
-      rakutenUrl: 'https://search.rakuten.co.jp/search/mall/MX+Anywhere+3S/'
+      rakutenUrl: 'https://a.r10.to/hPxjlx'
     - name: 'ロジクール Signature M650'
       badge: 'コスパ・電池式'
       amazonUrl: 'https://www.amazon.co.jp/s?k=Signature+M650&tag=your-amazon-id-22'
@@ -96,6 +96,13 @@ Signature M650は単三電池1本で駆動し、**最大24ヶ月（2年）交換
 - 実売価格がSignature M650の2.5倍以上と高め
 - 定期的な充電が必要（電池式ほど「放置」できない）
 - 手が大きい人には本体がやや小さく感じられる場合がある
+
+<div class="not-prose my-10">
+<p class="mb-3 text-[12px] leading-[1.33] text-ink-3">PR: 楽天市場の商品ページへのリンクです（価格・在庫は掲載時点のもの）</p>
+<div class="overflow-x-auto">
+<table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:504px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:240px"><a href="https://hb.afl.rakuten.co.jp/ichiba/56b389cd.d5266b37.56b389ce.bac46c81/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flogicool%2Fmx1800gr%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://hbb.afl.rakuten.co.jp/hgb/56b389cd.d5266b37.56b389ce.bac46c81/?me_id=1386625&item_id=10000541&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Flogicool%2Fcabinet%2Fprd%2Fmice%2Fmx1800gr%2Fmx1800gr.jpg%3F_ex%3D240x240&s=240x240&t=picttext" border="0" style="margin:2px" alt="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]" title="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]"></a></td><td style="vertical-align:top;width:248px;display: block;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/56b389cd.d5266b37.56b389ce.bac46c81/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flogicool%2Fmx1800gr%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;">ロジクール MX ANYWHERE 3S コンパクト パフォーマンス マウス ワイヤレス 静音 Smart Actions対応 Bluetooth Logi Bolt Unifying非対応 高速スクロールホイール 充電式 無線 Windows Mac Chrome iPad OS Android MX1800GR MX1800PG 国内正規品 2年間無償保証</a><br><span >価格：14,500円（税込、送料無料)</span> <span style="color:#BBB">(2026/8/20時点)</span></p><div style="margin:10px;"><a href="https://hb.afl.rakuten.co.jp/ichiba/56b389cd.d5266b37.56b389ce.bac46c81/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flogicool%2Fmx1800gr%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><img src="https://static.affiliate.rakuten.co.jp/makelink/rl.svg" style="float:left;max-height:27px;width:auto;margin-top:0" ></a><a href="https://hb.afl.rakuten.co.jp/ichiba/56b389cd.d5266b37.56b389ce.bac46c81/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Flogicool%2Fmx1800gr%2F%3Fscid%3Daf_pc_bbtn&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIyNDB4MjQwIiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ==" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"><div style="float:right;width:41%;height:27px;background-color:#bf0000;color:#fff!important;font-size:12px;font-weight:500;line-height:27px;margin-left:1px;padding: 0 12px;border-radius:16px;cursor:pointer;text-align:center;"> 楽天で購入 </div></a></div></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
+</div>
+</div>
 
 ## ロジクール Signature M650 のメリット・デメリット
 
