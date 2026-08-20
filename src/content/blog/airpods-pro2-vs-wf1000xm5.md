@@ -3,7 +3,7 @@ title: '【永遠の王道対決】AirPods Pro（第2世代）vs SONY WF-1000XM5
 description: 'ノイキャンイヤホン二大巨頭の永遠の対決。スペック・音質・装着感・通話品質を横並びで比較し、結論から使い方別の選び方まで整理しました。'
 pubDate: 2026-08-13
 category: 'イヤホン'
-amazonUrl: 'https://www.amazon.co.jp/s?k=%E3%83%8E%E3%82%A4%E3%82%BA%E3%82%AD%E3%83%A3%E3%83%B3%E3%82%BB%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%A4%E3%83%A4%E3%83%9B%E3%83%B3&tag=your-amazon-id-22'
+amazonUrl: 'https://link.amazon/B0cBD1Ikx'
 rakutenUrl: 'https://a.r10.to/hYksqX'
 productName: 'AirPods Pro（第2世代）と WF-1000XM5'
 emoji: '🎧'
@@ -15,7 +15,7 @@ comparison:
   products:
     - name: 'AirPods Pro（第2世代）'
       badge: 'Apple派の定番'
-      amazonUrl: 'https://www.amazon.co.jp/s?k=AirPods+Pro+%E7%AC%AC2%E4%B8%96%E4%BB%A3&tag=your-amazon-id-22'
+      amazonUrl: 'https://link.amazon/B0cBD1Ikx'
       rakutenUrl: 'https://a.r10.to/hYksqX'
     - name: 'SONY WF-1000XM5'
       badge: '静けさ最優先'
