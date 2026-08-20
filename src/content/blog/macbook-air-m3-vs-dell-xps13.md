@@ -17,7 +17,7 @@ comparison:
       rakutenUrl: 'https://a.r10.to/hgX7LK'
     - name: 'Dell XPS 13'
       badge: 'OLED画面'
-      amazonUrl: 'https://www.amazon.co.jp/s?k=Dell+XPS+13&tag=your-amazon-id-22'
+      amazonUrl: 'https://link.amazon/B0gDVykfU'
       rakutenUrl: 'https://a.r10.to/hYlq2x'
   specs:
     - label: '実売価格（最小構成）'
