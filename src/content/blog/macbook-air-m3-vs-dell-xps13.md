@@ -3,7 +3,7 @@ title: '【Mac vs Windows超軽量ノート対決】MacBook Air M3 vs Dell XPS 1
 description: 'ファンレス静音のMacBook Air M3と、OLED画面が魅力のDell XPS 13を比較。OS以外の違いに注目して、バッテリー・ポート構成・キーボードまで整理しました。'
 pubDate: 2026-08-15
 category: 'ノートPC'
-amazonUrl: 'https://www.amazon.co.jp/s?k=%E8%BB%BD%E9%87%8F%E3%83%8E%E3%83%BC%E3%83%88PC&tag=your-amazon-id-22'
+amazonUrl: 'https://link.amazon/B0aXTEB5l'
 rakutenUrl: 'https://a.r10.to/hgX7LK'
 productName: 'MacBook Air M3 と Dell XPS 13'
 emoji: '💻'
@@ -13,7 +13,7 @@ comparison:
   products:
     - name: 'MacBook Air M3（13インチ）'
       badge: 'ファンレス静音'
-      amazonUrl: 'https://www.amazon.co.jp/s?k=MacBook+Air+M3&tag=your-amazon-id-22'
+      amazonUrl: 'https://link.amazon/B0aXTEB5l'
       rakutenUrl: 'https://a.r10.to/hgX7LK'
     - name: 'Dell XPS 13'
       badge: 'OLED画面'
