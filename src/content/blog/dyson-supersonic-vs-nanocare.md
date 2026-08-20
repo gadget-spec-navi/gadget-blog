@@ -3,7 +3,7 @@ title: '【ヘアドライヤー最強対決】Dyson Supersonic vs パナソニ�
 description: '高級ドライヤーの二大巨頭、Dyson Supersonicとパナソニック ナノケアを比較。価格差1万円以上の中身と、髪質・用途別の選び方を整理しました。'
 pubDate: 2026-08-15
 category: '生活家電'
-amazonUrl: 'https://www.amazon.co.jp/s?k=%E9%AB%98%E7%B4%9A%E3%83%89%E3%83%A9%E3%82%A4%E3%83%A4%E3%83%BC&tag=your-amazon-id-22'
+amazonUrl: 'https://link.amazon/B09NEkeLy'
 rakutenUrl: 'https://a.r10.to/h5WY23'
 productName: 'Dyson Supersonic と パナソニック ナノケア'
 emoji: '🤖'
@@ -13,7 +13,7 @@ comparison:
   products:
     - name: 'Dyson Supersonic'
       badge: '風量・温度制御特化'
-      amazonUrl: 'https://www.amazon.co.jp/s?k=Dyson+Supersonic&tag=your-amazon-id-22'
+      amazonUrl: 'https://link.amazon/B09NEkeLy'
       rakutenUrl: 'https://a.r10.to/h5WY23'
     - name: 'パナソニック ナノケア'
       badge: '髪の水分ケア特化'
